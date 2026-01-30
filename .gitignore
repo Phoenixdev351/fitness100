@@ -8,3 +8,12 @@
 !themes/transformer/templates/
 !themes/transformer/templates/_partials/
 !themes/transformer/templates/_partials/head.tpl
+
+!themes/
+!themes/transformer/**
+
+# !modules/
+# !modules/**
+
+!override/
+!override/**

@@ -171,7 +171,7 @@
 {assign var='head_seo_output' value=$head_seo_output|replace:" rel='prev'":"<!-- REL='PREV' REMOVED -->"}
 
 {* Output the filtered content *}
-{$head_seo_output nofilter}
+{* $head_seo_output nofilter *}
 
 {* Fix #7: Single rel="prev" and rel="next" to prevent duplicates - Handle both category and blog pagination *}
 {* Output AFTER head_seo block to ensure our tags are the only ones that appear *}

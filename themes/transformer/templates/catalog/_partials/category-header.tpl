@@ -1,0 +1,1 @@
+{*github#9459 no need to show category header on the first page only, so just put an empty file here*}

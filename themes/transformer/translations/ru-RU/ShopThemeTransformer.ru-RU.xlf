@@ -1,0 +1,1614 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+  <file source-language="en-US" target-language="ru-RU" datatype="plaintext" original="file.ext">
+    <header>
+      <tool tool-id="symfony" tool-name="Symfony"/>
+    </header>
+    <body>
+      <trans-unit id="g7eUFFw" resname="Read more">
+        <source>Read more</source>
+        <target>Подробнее</target>
+      </trans-unit>
+      <trans-unit id="wkmppKa" resname="Subcategories">
+        <source>Subcategories</source>
+        <target>Подкатегории</target>
+      </trans-unit>
+      <trans-unit id="Nbzqy.y" resname="No products">
+        <source>No products</source>
+        <target>Нет товаров</target>
+      </trans-unit>
+      <trans-unit id="WutMNm0" resname="There are no products on the category.">
+        <source>There are no products on the category.</source>
+        <target>В категории нет товаров.</target>
+      </trans-unit>
+      <trans-unit id="cb_Qk1." resname="Reference">
+        <source>Reference</source>
+        <target>Артикул</target>
+      </trans-unit>
+      <trans-unit id="EzEnW8U" resname="Tags">
+        <source>Tags</source>
+        <target>Теги</target>
+      </trans-unit>
+      <trans-unit id="ejNAX0a" resname="More about">
+        <source>More about</source>
+        <target>Подробнее</target>
+      </trans-unit>
+      <trans-unit id="_oZlFlx" resname="Toggle filters">
+        <source>Toggle filters</source>
+        <target>Показать/скрыть фильтры</target>
+      </trans-unit>
+      <trans-unit id="Jn5VWO8" resname="View more">
+        <source>View more</source>
+        <target>Узнать больше</target>
+      </trans-unit>
+      <trans-unit id="4O42OBx" resname="Select options">
+        <source>Select options</source>
+        <target>Выбрать опции</target>
+      </trans-unit>
+      <trans-unit id="HwwwXf0" resname="Limited time offer">
+        <source>Limited time offer</source>
+        <target>Ограниченное по времени предложение</target>
+      </trans-unit>
+      <trans-unit id="Y.ZW.Yo" resname="Special offer">
+        <source>Special offer</source>
+        <target>Special offer</target>
+      </trans-unit>
+      <trans-unit id="7LYKQv2" resname="Limited special offer">
+        <source>Limited special offer</source>
+        <target>Ограниченное специальное предложение</target>
+      </trans-unit>
+      <trans-unit id="CQ7UMW8" resname="Brand">
+        <source>Brand</source>
+        <target>Бренд</target>
+      </trans-unit>
+      <trans-unit id="8o2r893" resname="Click here to see all products of this brand">
+        <source>Click here to see all products of this brand</source>
+        <target>Нажмите, чтобы просмотреть все товары этого бренда</target>
+      </trans-unit>
+      <trans-unit id="UgTMRCE" resname="View all reviews">
+        <source>View all reviews</source>
+        <target>Посмотреть все отзывы</target>
+      </trans-unit>
+      <trans-unit id=".eQd4_T" resname="Show all images">
+        <source>Show all images</source>
+        <target>Показать все изображения</target>
+      </trans-unit>
+      <trans-unit id="R9pOVQe" resname="Grid view">
+        <source>Grid view</source>
+        <target>Плитка</target>
+      </trans-unit>
+      <trans-unit id="XYw_G2N" resname="List view">
+        <source>List view</source>
+        <target>Cписок</target>
+      </trans-unit>
+      <trans-unit id="ma9mBv_" resname="Menu">
+        <source>Menu</source>
+        <target>Меню</target>
+      </trans-unit>
+      <trans-unit id="PkFDV19" resname="Our stores">
+        <source>Our stores</source>
+        <target>Наши магазины</target>
+      </trans-unit>
+      <trans-unit id="3Y9IwOz" resname="New customers?">
+        <source>New customers?</source>
+        <target>Новые клиенты?</target>
+      </trans-unit>
+      <trans-unit id="LZfo212" resname="It\'s quick and easy to create an account to shop faster and save your order to account.">
+        <source>It\'s quick and easy to create an account to shop faster and save your order to account.</source>
+        <target>Создать аккаунт легко и просто, это ускорит покупки и позволит сохранять Ваши заказы.</target>
+      </trans-unit>
+      <trans-unit id="zSuQWXg" resname="Registered customers">
+        <source>Registered customers</source>
+        <target>Зарегистрированные пользователи</target>
+      </trans-unit>
+      <trans-unit id="Z7aWRoY" resname="Dashboard">
+        <source>Dashboard</source>
+        <target>Пульт</target>
+      </trans-unit>
+      <trans-unit id="Kg3G5pB" resname="This site is under maintenance">
+        <source>This site is under maintenance</source>
+        <target>На сайте проводятся работы по техническому обслуживанию</target>
+      </trans-unit>
+      <trans-unit id="u3IIvJt" resname="!">
+        <source>!</source>
+        <target>!</target>
+      </trans-unit>
+      <trans-unit id="g.6DvAh" resname="Toggle left column">
+        <source>Toggle left column</source>
+        <target>Открыть / закрыть левую колонку</target>
+      </trans-unit>
+      <trans-unit id="kNrQfuV" resname="Left column">
+        <source>Left column</source>
+        <target>Левая колонка</target>
+      </trans-unit>
+      <trans-unit id="6Js7Dp." resname="Toggle right column">
+        <source>Toggle right column</source>
+        <target>Открыть / закрыть правую колонку</target>
+      </trans-unit>
+      <trans-unit id="l6te0pW" resname="Right column">
+        <source>Right column</source>
+        <target>Правая колонка</target>
+      </trans-unit>
+      <trans-unit id="cIghtpO" resname="Please sign in first.">
+        <source>Please sign in first.</source>
+        <target>Пожалуйста авторизуйтесь.</target>
+      </trans-unit>
+      <trans-unit id="v9QCsvb" resname="Sign in">
+        <source>Sign in</source>
+        <target>Вход</target>
+      </trans-unit>
+      <trans-unit id="FtJhFsL" resname="Payment methods">
+        <source>Payment methods</source>
+        <target>Способы оплаты</target>
+      </trans-unit>
+      <trans-unit id="7_gb1Y." resname="Load More Products">
+        <source>Load More Products</source>
+        <target>Загрузить больше товаров</target>
+      </trans-unit>
+      <trans-unit id="H6.a7q0" resname="Top sellers">
+        <source>Top sellers</source>
+        <target>Лидеры продаж</target>
+      </trans-unit>
+      <trans-unit id="alaQERF" resname="Method doesn\'t exist">
+        <source>Method doesn\'t exist</source>
+        <target>Метода не существует</target>
+      </trans-unit>
+      <trans-unit id="R6RjpSo" resname="Product comparison">
+        <source>Product comparison</source>
+        <target>Product comparison</target>
+      </trans-unit>
+      <trans-unit id="4VaYBy4" resname="Failed, product ID is empty">
+        <source>Failed, product ID is empty</source>
+        <target>Failed, product ID is empty</target>
+      </trans-unit>
+      <trans-unit id="2jj3E_5" resname="Removed from %1%compare list%2%">
+        <source>Removed from %1%compare list%2%</source>
+        <target>Removed from %1%compare list%2%</target>
+      </trans-unit>
+      <trans-unit id="L3UxyxY" resname="Emptyed %1%compare list%2%">
+        <source>Emptyed %1%compare list%2%</source>
+        <target>Emptyed %1%compare list%2%</target>
+      </trans-unit>
+      <trans-unit id="KfqlFxG" resname="Added to %1%compare list%2%">
+        <source>Added to %1%compare list%2%</source>
+        <target>Added to %1%compare list%2%</target>
+      </trans-unit>
+      <trans-unit id="pMSXOaT" resname="Remove All">
+        <source>Remove All</source>
+        <target>Remove All</target>
+      </trans-unit>
+      <trans-unit id="w4EvxKy" resname="Remove">
+        <source>Remove</source>
+        <target>Удалить</target>
+      </trans-unit>
+      <trans-unit id="3NHVIj9" resname="Name">
+        <source>Name</source>
+        <target>Name</target>
+      </trans-unit>
+      <trans-unit id="k8kchR5" resname="Price">
+        <source>Price</source>
+        <target>Price</target>
+      </trans-unit>
+      <trans-unit id="nylTBGT" resname="Rating">
+        <source>Rating</source>
+        <target>Rating</target>
+      </trans-unit>
+      <trans-unit id="eWrs09G" resname="Short description">
+        <source>Short description</source>
+        <target>Short description</target>
+      </trans-unit>
+      <trans-unit id="1crefvM" resname="Stock">
+        <source>Stock</source>
+        <target>Stock</target>
+      </trans-unit>
+      <trans-unit id="a3MZGgp" resname="Color">
+        <source>Color</source>
+        <target>Color</target>
+      </trans-unit>
+      <trans-unit id="G4wn11A" resname="No features to compare">
+        <source>No features to compare</source>
+        <target>No features to compare</target>
+      </trans-unit>
+      <trans-unit id="PpdXSzp" resname="There are no products selected for comparison.">
+        <source>There are no products selected for comparison.</source>
+        <target>There are no products selected for comparison.</target>
+      </trans-unit>
+      <trans-unit id="TE9RyLi" resname="Add to compare">
+        <source>Add to compare</source>
+        <target>Add to compare</target>
+      </trans-unit>
+      <trans-unit id="6IgVXYx" resname="Compare">
+        <source>Compare</source>
+        <target>Сравнить</target>
+      </trans-unit>
+      <trans-unit id="jGvAmVN" resname="Blog">
+        <source>Blog</source>
+        <target>Блог</target>
+      </trans-unit>
+      <trans-unit id="QySd5wv" resname="(%s selected)">
+        <source>(%s selected)</source>
+        <target>(выбрано %s)</target>
+      </trans-unit>
+      <trans-unit id="ik0bPdf" resname="Group: %s">
+        <source>Group: %s</source>
+        <target>Группа: %s</target>
+      </trans-unit>
+      <trans-unit id="qwcKPwm" resname="Posted on">
+        <source>Posted on</source>
+        <target>Опубликовано</target>
+      </trans-unit>
+      <trans-unit id="ZvU0F9O" resname="Just now">
+        <source>Just now</source>
+        <target>Только что</target>
+      </trans-unit>
+      <trans-unit id="ifaDJWD" resname="Year">
+        <source>Year</source>
+        <target>Год</target>
+      </trans-unit>
+      <trans-unit id="toyggR8" resname="Years">
+        <source>Years</source>
+        <target>Годы</target>
+      </trans-unit>
+      <trans-unit id="MQylA_8" resname="Month">
+        <source>Month</source>
+        <target>Месяц</target>
+      </trans-unit>
+      <trans-unit id="Ccp1UbP" resname="Months">
+        <source>Months</source>
+        <target>Месяцы</target>
+      </trans-unit>
+      <trans-unit id="54BBq1G" resname="Week">
+        <source>Week</source>
+        <target>Неделя</target>
+      </trans-unit>
+      <trans-unit id="z2RDX7s" resname="Weeks">
+        <source>Weeks</source>
+        <target>Недели</target>
+      </trans-unit>
+      <trans-unit id="jyNk4Ru" resname="Day">
+        <source>Day</source>
+        <target>День</target>
+      </trans-unit>
+      <trans-unit id="4IwKqPV" resname="Days">
+        <source>Days</source>
+        <target>Дни</target>
+      </trans-unit>
+      <trans-unit id="8AY7gIc" resname="Hour">
+        <source>Hour</source>
+        <target>Час</target>
+      </trans-unit>
+      <trans-unit id="IehJKTi" resname="Hours">
+        <source>Hours</source>
+        <target>Часы</target>
+      </trans-unit>
+      <trans-unit id="S3hmW_x" resname="Minute">
+        <source>Minute</source>
+        <target>Минута</target>
+      </trans-unit>
+      <trans-unit id="T4RqhOf" resname="Minutes">
+        <source>Minutes</source>
+        <target>Минуты</target>
+      </trans-unit>
+      <trans-unit id="HY4I.WM" resname="ago">
+        <source>ago</source>
+        <target>назад</target>
+      </trans-unit>
+      <trans-unit id="p_LSbo0" resname="by">
+        <source>by</source>
+        <target>от</target>
+      </trans-unit>
+      <trans-unit id="FQORaiq" resname="Tag">
+        <source>Tag</source>
+        <target>Тег</target>
+      </trans-unit>
+      <trans-unit id="dZBlHIz" resname="This category is currently unavailable.">
+        <source>This category is currently unavailable.</source>
+        <target>Эта категория недоступна.</target>
+      </trans-unit>
+      <trans-unit id="vxLhdfb" resname="No posts">
+        <source>No posts</source>
+        <target>Нет сообщений</target>
+      </trans-unit>
+      <trans-unit id="NV958p1" resname="Comments">
+        <source>Comments</source>
+        <target>Комментарии</target>
+      </trans-unit>
+      <trans-unit id="RPXj__x" resname="Comment">
+        <source>Comment</source>
+        <target>Комментарий</target>
+      </trans-unit>
+      <trans-unit id="t2TNwOq" resname="Unknown">
+        <source>Unknown</source>
+        <target>Неизвестно</target>
+      </trans-unit>
+      <trans-unit id="QRA.oxE" resname="Archive for">
+        <source>Archive for</source>
+        <target>Архив за</target>
+      </trans-unit>
+      <trans-unit id="NwguaN_" resname="January">
+        <source>January</source>
+        <target>Январь</target>
+      </trans-unit>
+      <trans-unit id="yHfG.0B" resname="February">
+        <source>February</source>
+        <target>Февраль</target>
+      </trans-unit>
+      <trans-unit id="nZWizw1" resname="March">
+        <source>March</source>
+        <target>Март</target>
+      </trans-unit>
+      <trans-unit id="Sv5uoVD" resname="April">
+        <source>April</source>
+        <target>Апрель</target>
+      </trans-unit>
+      <trans-unit id="jHj_W5k" resname="May">
+        <source>May</source>
+        <target>Май</target>
+      </trans-unit>
+      <trans-unit id="1YCMDgp" resname="June">
+        <source>June</source>
+        <target>Июнь</target>
+      </trans-unit>
+      <trans-unit id="6c96HKS" resname="July">
+        <source>July</source>
+        <target>Июль</target>
+      </trans-unit>
+      <trans-unit id="pm2JcOV" resname="August">
+        <source>August</source>
+        <target>Август</target>
+      </trans-unit>
+      <trans-unit id="zVWeoKv" resname="September">
+        <source>September</source>
+        <target>Сентябрь</target>
+      </trans-unit>
+      <trans-unit id=".deReHt" resname="October">
+        <source>October</source>
+        <target>Октябрь</target>
+      </trans-unit>
+      <trans-unit id="neb_HXJ" resname="November">
+        <source>November</source>
+        <target>Ноябрь</target>
+      </trans-unit>
+      <trans-unit id="j7IEykY" resname="December">
+        <source>December</source>
+        <target>Декабрь</target>
+      </trans-unit>
+      <trans-unit id="yQTs.5F" resname="Blog archives">
+        <source>Blog archives</source>
+        <target>Архивы блога</target>
+      </trans-unit>
+      <trans-unit id="cZU1Ziu" resname="Blog categories">
+        <source>Blog categories</source>
+        <target>Категории блога</target>
+      </trans-unit>
+      <trans-unit id="8jhRn0H" resname="Invalid blog ID">
+        <source>Invalid blog ID</source>
+        <target>Неверный ID блога</target>
+      </trans-unit>
+      <trans-unit id="tWko4AJ" resname="Your comment is too short. Please try again">
+        <source>Your comment is too short. Please try again</source>
+        <target>Ваш комментарий слишком короток. Попробуйте ещё раз</target>
+      </trans-unit>
+      <trans-unit id="bdaTLcC" resname="Customer name is empty">
+        <source>Customer name is empty</source>
+        <target>Имя пользователя пусто</target>
+      </trans-unit>
+      <trans-unit id="czjUjyP" resname="Customer email is invalid">
+        <source>Customer email is invalid</source>
+        <target>Неверный email клиента</target>
+      </trans-unit>
+      <trans-unit id="4t9XUxF" resname="Please login to post a comment">
+        <source>Please login to post a comment</source>
+        <target>Для комментирования нужно авторизоваться</target>
+      </trans-unit>
+      <trans-unit id="IHCToJk" resname="Blog not found">
+        <source>Blog not found</source>
+        <target>Блог не найден</target>
+      </trans-unit>
+      <trans-unit id="xReQoUE" resname="Thank you for your comment.">
+        <source>Thank you for your comment.</source>
+        <target>Спасибо за ваш комментарий.</target>
+      </trans-unit>
+      <trans-unit id="MfPMWmN" resname="Your comment may be awaiting moderation before being published.">
+        <source>Your comment may be awaiting moderation before being published.</source>
+        <target>Ваш комментарий ожидает модерации перед публикацией.</target>
+      </trans-unit>
+      <trans-unit id="s9xnokJ" resname="You should wait %seconds% seconds before posting a new comment.">
+        <source>You should wait %seconds% seconds before posting a new comment.</source>
+        <target>Перед публикацией нового комментария Вы должны подождать %seconds% сек.</target>
+      </trans-unit>
+      <trans-unit id="rsWVy7a" resname="Please refresh the page and try again">
+        <source>Please refresh the page and try again</source>
+        <target>Пожалуйста, обновите страницу и попробуйте еще раз</target>
+      </trans-unit>
+      <trans-unit id="xS09_M7" resname="Avatar uploaded successfully">
+        <source>Avatar uploaded successfully</source>
+        <target>Аватар загружен</target>
+      </trans-unit>
+      <trans-unit id="S.Pbh8c" resname="Failed to upload avatar">
+        <source>Failed to upload avatar</source>
+        <target>Не удалось загрузить аватар</target>
+      </trans-unit>
+      <trans-unit id="S3hgxio" resname="This image is too large to be uploaded.">
+        <source>This image is too large to be uploaded.</source>
+        <target>Это изображение слишком велико для загрузки.</target>
+      </trans-unit>
+      <trans-unit id="HAwWRiq" resname="Unable to upload this image, upload folder is not writable.">
+        <source>Unable to upload this image, upload folder is not writable.</source>
+        <target>Не удалось загрузить, папка загрузки недоступна для записи.</target>
+      </trans-unit>
+      <trans-unit id="ih_qxFH" resname="Avatar deleted successfully">
+        <source>Avatar deleted successfully</source>
+        <target>Аватар удален</target>
+      </trans-unit>
+      <trans-unit id="IdKydVE" resname="Failed to delete avatar">
+        <source>Failed to delete avatar</source>
+        <target>Не удалось удалить аватар</target>
+      </trans-unit>
+      <trans-unit id="NHW27.M" resname="My comments of blog">
+        <source>My comments of blog</source>
+        <target>Мои комментарии блога</target>
+      </trans-unit>
+      <trans-unit id="3BqqeAY" resname="Blog comments: Unable to delete customer using ID.">
+        <source>Blog comments: Unable to delete customer using ID.</source>
+        <target>Blog comments: Unable to delete customer using ID.</target>
+      </trans-unit>
+      <trans-unit id="RV.yb51" resname="Blog comments: No data found.">
+        <source>Blog comments: No data found.</source>
+        <target>Blog comments: No data found.</target>
+      </trans-unit>
+      <trans-unit id="w3P12tf" resname="Blog comments">
+        <source>Blog comments</source>
+        <target>Комментарии блога</target>
+      </trans-unit>
+      <trans-unit id="yo6CbZw" resname="Avatar">
+        <source>Avatar</source>
+        <target>Аватар</target>
+      </trans-unit>
+      <trans-unit id=".GPC7xB" resname="Upload a new avatar(JPEG 80x80px)">
+        <source>Upload a new avatar(JPEG 80x80px)</source>
+        <target>Загрузить новый аватар(JPEG 80x80px)</target>
+      </trans-unit>
+      <trans-unit id="hl6J3nj" resname="Upload">
+        <source>Upload</source>
+        <target>Загрузить</target>
+      </trans-unit>
+      <trans-unit id="p2nO3Hm" resname="Use default">
+        <source>Use default</source>
+        <target>По умолчанию</target>
+      </trans-unit>
+      <trans-unit id="wL3qwYp" resname="My Comments">
+        <source>My Comments</source>
+        <target>Мои комментарии</target>
+      </trans-unit>
+      <trans-unit id="EwARdWE" resname="On">
+        <source>On</source>
+        <target>На</target>
+      </trans-unit>
+      <trans-unit id="wlP0Ub3" resname="Reply">
+        <source>Reply</source>
+        <target>Ответ</target>
+      </trans-unit>
+      <trans-unit id="iqxmgmB" resname="Latest Comments">
+        <source>Latest Comments</source>
+        <target>Последние комментарии</target>
+      </trans-unit>
+      <trans-unit id="uNMehSc" resname="on">
+        <source>on</source>
+        <target>на</target>
+      </trans-unit>
+      <trans-unit id="3.XPOzA" resname="No comments">
+        <source>No comments</source>
+        <target>Комментариев нет</target>
+      </trans-unit>
+      <trans-unit id="I3DebQa" resname="Leave a Comment">
+        <source>Leave a Comment</source>
+        <target>Оставить комментарий</target>
+      </trans-unit>
+      <trans-unit id="O0P7EyP" resname="Leave a Reply">
+        <source>Leave a Reply</source>
+        <target>Ответить</target>
+      </trans-unit>
+      <trans-unit id="kQLshjj" resname="Name (required)">
+        <source>Name (required)</source>
+        <target>Логин(необходимо)</target>
+      </trans-unit>
+      <trans-unit id="lpzL089" resname="Email">
+        <source>Email</source>
+        <target>Email</target>
+      </trans-unit>
+      <trans-unit id="FT3BOj5" resname="Post comment">
+        <source>Post comment</source>
+        <target>Добавить комментарий</target>
+      </trans-unit>
+      <trans-unit id="I1X3MVA" resname="Cancel reply">
+        <source>Cancel reply</source>
+        <target>Отменить ответ</target>
+      </trans-unit>
+      <trans-unit id="PBvDNmN" resname="Please [1]login[/1] to post a comment.">
+        <source>Please [1]login[/1] to post a comment.</source>
+        <target>Пожалуйста, [1]войдите[/1], чтобы добавить комментарий.</target>
+      </trans-unit>
+      <trans-unit id="Xju1GO8" resname="You should wait %delay% seconds before posting a new comment.">
+        <source>You should wait %delay% seconds before posting a new comment.</source>
+        <target>Перед публикацией нового комментария Вы должны подождать%delay% сек.</target>
+      </trans-unit>
+      <trans-unit id="33AHLIP" resname="Related products">
+        <source>Related products</source>
+        <target>Связанные товары</target>
+      </trans-unit>
+      <trans-unit id="ViXs5Wg" resname="Recent articles">
+        <source>Recent articles</source>
+        <target>Последние статьи</target>
+      </trans-unit>
+      <trans-unit id="Lx6Jn5D" resname="Featured articles">
+        <source>Featured articles</source>
+        <target>Рекомендованные статьи</target>
+      </trans-unit>
+      <trans-unit id="FUNbMRy" resname="View More">
+        <source>View More</source>
+        <target>View More</target>
+      </trans-unit>
+      <trans-unit id="yyTUjuT" resname="Previous article">
+        <source>Previous article</source>
+        <target>Предыдущая статья</target>
+      </trans-unit>
+      <trans-unit id="e6BeAkZ" resname="Next article">
+        <source>Next article</source>
+        <target>Следующая статья</target>
+      </trans-unit>
+      <trans-unit id="c5Epmfr" resname="Prev">
+        <source>Prev</source>
+        <target>Пред.</target>
+      </trans-unit>
+      <trans-unit id="H.V6Kdf" resname="Next">
+        <source>Next</source>
+        <target>След.</target>
+      </trans-unit>
+      <trans-unit id="ZTyYth3" resname="Related articles">
+        <source>Related articles</source>
+        <target>Связанные статьи</target>
+      </trans-unit>
+      <trans-unit id="ScJmuqq" resname="Search">
+        <source>Search</source>
+        <target>Поиск</target>
+      </trans-unit>
+      <trans-unit id="i1ccIv6" resname="No results were found for your search">
+        <source>No results were found for your search</source>
+        <target>По вашему запросу ничего не найдено</target>
+      </trans-unit>
+      <trans-unit id="xAD.HHg" resname="%d result has been found.">
+        <source>%d result has been found.</source>
+        <target>Найдено результатов: %d.</target>
+      </trans-unit>
+      <trans-unit id="pp9Rp51" resname="%d results have been found.">
+        <source>%d results have been found.</source>
+        <target>Найдено результатов: %d.</target>
+      </trans-unit>
+      <trans-unit id="bqj3Qzx" resname="Search for">
+        <source>Search for</source>
+        <target>Поиск</target>
+      </trans-unit>
+      <trans-unit id="pXsIpIC" resname="Previous">
+        <source>Previous</source>
+        <target>Пред.</target>
+      </trans-unit>
+      <trans-unit id="2wTDyl4" resname="Blog search">
+        <source>Blog search</source>
+        <target>Поиск по блогам</target>
+      </trans-unit>
+      <trans-unit id="FH5rukO" resname="No tags">
+        <source>No tags</source>
+        <target>Нет тегов</target>
+      </trans-unit>
+      <trans-unit id="7Ca_LOe" resname="Brands">
+        <source>Brands</source>
+        <target>Бренды</target>
+      </trans-unit>
+      <trans-unit id="IUB3Tru" resname="Product Brands">
+        <source>Product Brands</source>
+        <target>Бренды</target>
+      </trans-unit>
+      <trans-unit id="mfMDY8X" resname="No product Brands">
+        <source>No product Brands</source>
+        <target>Нет брендов</target>
+      </trans-unit>
+      <trans-unit id="bDUcEWz" resname="No items">
+        <source>No items</source>
+        <target>Ничего нет</target>
+      </trans-unit>
+      <trans-unit id="lEwn5bl" resname="day">
+        <source>day</source>
+        <target>день</target>
+      </trans-unit>
+      <trans-unit id="q1EATp1" resname="days">
+        <source>days</source>
+        <target>дни</target>
+      </trans-unit>
+      <trans-unit id="TpaC_oU" resname="hrs">
+        <source>hrs</source>
+        <target>часы</target>
+      </trans-unit>
+      <trans-unit id="H2_m9p0" resname="min">
+        <source>min</source>
+        <target>мин</target>
+      </trans-unit>
+      <trans-unit id="rdk1NO6" resname="sec">
+        <source>sec</source>
+        <target>сек</target>
+      </trans-unit>
+      <trans-unit id="XbdRq.7" resname="Currency switcher">
+        <source>Currency switcher</source>
+        <target>Currency switcher</target>
+      </trans-unit>
+      <trans-unit id="fZ63rLE" resname="Close">
+        <source>Close</source>
+        <target>Закрыть</target>
+      </trans-unit>
+      <trans-unit id="ItoQ2o." resname="Currency selector">
+        <source>Currency selector</source>
+        <target>Выбор валюты</target>
+      </trans-unit>
+      <trans-unit id="dKiDoDe" resname="Settings">
+        <source>Settings</source>
+        <target>Параметры</target>
+      </trans-unit>
+      <trans-unit id="CtWq8QT" resname="View my customer account">
+        <source>View my customer account</source>
+        <target>Просмотреть мою учетную запись</target>
+      </trans-unit>
+      <trans-unit id="tTGBpNh" resname="My account">
+        <source>My account</source>
+        <target>Моя учётная запись</target>
+      </trans-unit>
+      <trans-unit id="823x1Ms" resname="Log me out">
+        <source>Log me out</source>
+        <target>Выйти</target>
+      </trans-unit>
+      <trans-unit id="SPDT05f" resname="Sign out">
+        <source>Sign out</source>
+        <target>Выход</target>
+      </trans-unit>
+      <trans-unit id="L9f6qvU" resname="Log in to your customer account">
+        <source>Log in to your customer account</source>
+        <target>Войти в учётную запись</target>
+      </trans-unit>
+      <trans-unit id="nWMiwfT" resname="Login">
+        <source>Login</source>
+        <target>Вход</target>
+      </trans-unit>
+      <trans-unit id="LRvpMfl" resname="Loved items">
+        <source>Loved items</source>
+        <target>Любимые товары</target>
+      </trans-unit>
+      <trans-unit id="7cJ5xkP" resname="Wishlist">
+        <source>Wishlist</source>
+        <target>Список пожеланий</target>
+      </trans-unit>
+      <trans-unit id="r9Jf3xf" resname="Forgot your password?">
+        <source>Forgot your password?</source>
+        <target>Забыли пароль?</target>
+      </trans-unit>
+      <trans-unit id="hgM.daT" resname="Create an account">
+        <source>Create an account</source>
+        <target>Создать учетную запись</target>
+      </trans-unit>
+      <trans-unit id="1B9bSXf" resname="Facebook">
+        <source>Facebook</source>
+        <target>Facebook</target>
+      </trans-unit>
+      <trans-unit id="xZRGvMQ" resname="Featured categories">
+        <source>Featured categories</source>
+        <target>Популярные категории</target>
+      </trans-unit>
+      <trans-unit id="yQczDiI" resname="No featured categories">
+        <source>No featured categories</source>
+        <target>Нет популярных категорий</target>
+      </trans-unit>
+      <trans-unit id="jB_m_cc" resname="Featured Products">
+        <source>Featured Products</source>
+        <target>Популярные товары</target>
+      </trans-unit>
+      <trans-unit id="t2Hx3qx" resname="New products">
+        <source>New products</source>
+        <target>Новые товары</target>
+      </trans-unit>
+      <trans-unit id="ZB0e9le" resname="Follow">
+        <source>Follow</source>
+        <target>Следуйте</target>
+      </trans-unit>
+      <trans-unit id="qAgRz2i" resname="Posts">
+        <source>Posts</source>
+        <target>Посты</target>
+      </trans-unit>
+      <trans-unit id="oUWrNCp" resname="Followers">
+        <source>Followers</source>
+        <target>Подписчики</target>
+      </trans-unit>
+      <trans-unit id="NEtCcco" resname="Following">
+        <source>Following</source>
+        <target>Подписки</target>
+      </trans-unit>
+      <trans-unit id="tvnqFSn" resname="View in Instagram">
+        <source>View in Instagram</source>
+        <target>Просмотр в Instagram</target>
+      </trans-unit>
+      <trans-unit id="GC0lgaz" resname="Click to view larger">
+        <source>Click to view larger</source>
+        <target>Нажмите для увеличения</target>
+      </trans-unit>
+      <trans-unit id="jRhXnX9" resname="from now">
+        <source>from now</source>
+        <target>от настоящего момента</target>
+      </trans-unit>
+      <trans-unit id="tjlo.Hz" resname="any moment now">
+        <source>any moment now</source>
+        <target>любой момент сейчас</target>
+      </trans-unit>
+      <trans-unit id="ldTNKne" resname="less than a minute">
+        <source>less than a minute</source>
+        <target>менее чем за минуту</target>
+      </trans-unit>
+      <trans-unit id="RKh2zkv" resname="about a minute">
+        <source>about a minute</source>
+        <target>около минуты</target>
+      </trans-unit>
+      <trans-unit id="kOY9hfo" resname="minutes">
+        <source>minutes</source>
+        <target>минут</target>
+      </trans-unit>
+      <trans-unit id="TLVH.KK" resname="about an hour">
+        <source>about an hour</source>
+        <target>около часа</target>
+      </trans-unit>
+      <trans-unit id="YF1J8Lm" resname="about #d hours">
+        <source>about #d hours</source>
+        <target>около #d час(а,ов)</target>
+      </trans-unit>
+      <trans-unit id="TtBC4Bz" resname="a day">
+        <source>a day</source>
+        <target>день</target>
+      </trans-unit>
+      <trans-unit id="5_s1Yg_" resname="about a month">
+        <source>about a month</source>
+        <target>около месяца</target>
+      </trans-unit>
+      <trans-unit id="FoN0M0Q" resname="months">
+        <source>months</source>
+        <target>Месяцы</target>
+      </trans-unit>
+      <trans-unit id="_JYzV2P" resname="about a year">
+        <source>about a year</source>
+        <target>около года</target>
+      </trans-unit>
+      <trans-unit id="HFCZOwC" resname="years">
+        <source>years</source>
+        <target>Годы</target>
+      </trans-unit>
+      <trans-unit id="GODcsew" resname="Follow us on Instagram">
+        <source>Follow us on Instagram</source>
+        <target>Следите за нами в Instagram</target>
+      </trans-unit>
+      <trans-unit id="a8wopdW" resname="Can not connect to Instagram or you do not have permissions to get media from Instagram.">
+        <source>Can not connect to Instagram or you do not have permissions to get media from Instagram.</source>
+        <target>Не удаётся подключиться к Instagram или у вас нет разрешений в Instagram.</target>
+      </trans-unit>
+      <trans-unit id="3ARUkqV" resname="No images">
+        <source>No images</source>
+        <target>Нет изображений</target>
+      </trans-unit>
+      <trans-unit id="rImR7wE" resname="Load more">
+        <source>Load more</source>
+        <target>Загрузить ещё</target>
+      </trans-unit>
+      <trans-unit id=".TduPE_" resname="Language switcher">
+        <source>Language switcher</source>
+        <target>Language switcher</target>
+      </trans-unit>
+      <trans-unit id="3PkQmah" resname="Language selector">
+        <source>Language selector</source>
+        <target>Выбор языка</target>
+      </trans-unit>
+      <trans-unit id="g9NMP9y" resname="Product deleted">
+        <source>Product deleted</source>
+        <target>Товар удалён</target>
+      </trans-unit>
+      <trans-unit id="8ClxTd7" resname="Failed to delete  this product">
+        <source>Failed to delete  this product</source>
+        <target>Не удаётся удалить товар</target>
+      </trans-unit>
+      <trans-unit id="Tum6iuQ" resname="Loved it!">
+        <source>Loved it!</source>
+        <target>Нравится!</target>
+      </trans-unit>
+      <trans-unit id=".JQCkSj" resname="Adding to love failed">
+        <source>Adding to love failed</source>
+        <target>Не удалось добавить в любимое</target>
+      </trans-unit>
+      <trans-unit id="oO3e3.X" resname="My loved products">
+        <source>My loved products</source>
+        <target>Мои любимые товары</target>
+      </trans-unit>
+      <trans-unit id="4tClSWj" resname="Delete">
+        <source>Delete</source>
+        <target>Удалить</target>
+      </trans-unit>
+      <trans-unit id="E_6VU64" resname="My loved articles">
+        <source>My loved articles</source>
+        <target>Мои любимые статьи</target>
+      </trans-unit>
+      <trans-unit id="fljtXC5" resname="You haven\'t loved yet.">
+        <source>You haven\'t loved yet.</source>
+        <target>У вас нет любимых статей/товаров.</target>
+      </trans-unit>
+      <trans-unit id="n0Ak_uw" resname="Love">
+        <source>Love</source>
+        <target>Любимое</target>
+      </trans-unit>
+      <trans-unit id="Yr8DPpS" resname="Create a free account to save loved items.">
+        <source>Create a free account to save loved items.</source>
+        <target>Создайте учётную запись для сохранения любимых товаров.</target>
+      </trans-unit>
+      <trans-unit id="uNHI8Hp" resname="Add to loved">
+        <source>Add to loved</source>
+        <target>Добавить в любимые</target>
+      </trans-unit>
+      <trans-unit id="y7aZ4bL" resname="View my loved products">
+        <source>View my loved products</source>
+        <target>Смотреть любимые товары</target>
+      </trans-unit>
+      <trans-unit id="C_2UXkA" resname="Loved">
+        <source>Loved</source>
+        <target>Любимое</target>
+      </trans-unit>
+      <trans-unit id="1fJoYS6" resname="My loved items">
+        <source>My loved items</source>
+        <target>Мои любимые товары</target>
+      </trans-unit>
+      <trans-unit id="W5eH.KO" resname="Loved products">
+        <source>Loved products</source>
+        <target>Любимые товары</target>
+      </trans-unit>
+      <trans-unit id="yUgeMHf" resname="Loved articles">
+        <source>Loved articles</source>
+        <target>Любимые статьи</target>
+      </trans-unit>
+      <trans-unit id="MKZCFur" resname="View all">
+        <source>View all</source>
+        <target>Просмотреть все</target>
+      </trans-unit>
+      <trans-unit id="XhclijF" resname="Manage my customer account">
+        <source>Manage my customer account</source>
+        <target>Manage my customer account</target>
+      </trans-unit>
+      <trans-unit id="Iv67XLO" resname="My orders">
+        <source>My orders</source>
+        <target>Мои заказы</target>
+      </trans-unit>
+      <trans-unit id="QStPHux" resname="My merchandise returns">
+        <source>My merchandise returns</source>
+        <target>My merchandise returns</target>
+      </trans-unit>
+      <trans-unit id="QZNpSwY" resname="My returns">
+        <source>My returns</source>
+        <target>Мои возвраты</target>
+      </trans-unit>
+      <trans-unit id="wjy_P1m" resname="My credit slips">
+        <source>My credit slips</source>
+        <target>Мои квитанции об оплате</target>
+      </trans-unit>
+      <trans-unit id="1sV0glP" resname="My addresses">
+        <source>My addresses</source>
+        <target>Мои адреса</target>
+      </trans-unit>
+      <trans-unit id="ZO2iUnh" resname="My personal info">
+        <source>My personal info</source>
+        <target>Моя личная информация</target>
+      </trans-unit>
+      <trans-unit id="mvxvhPV" resname="Manage my personal information">
+        <source>Manage my personal information</source>
+        <target>Manage my personal information</target>
+      </trans-unit>
+      <trans-unit id="zRtMuuE" resname="My vouchers">
+        <source>My vouchers</source>
+        <target>Мои купоны</target>
+      </trans-unit>
+      <trans-unit id="kKktfvh" resname="Specials">
+        <source>Specials</source>
+        <target>Скидки</target>
+      </trans-unit>
+      <trans-unit id="R6rzG4P" resname="Contact us">
+        <source>Contact us</source>
+        <target>Свяжитесь с нами</target>
+      </trans-unit>
+      <trans-unit id="TbVQzZh" resname="Sitemap">
+        <source>Sitemap</source>
+        <target>Карта сайта</target>
+      </trans-unit>
+      <trans-unit id="cPF0URb" resname="Manufacturers">
+        <source>Manufacturers</source>
+        <target>Manufacturers</target>
+      </trans-unit>
+      <trans-unit id="zZQNZIb" resname="Suppliers">
+        <source>Suppliers</source>
+        <target>Suppliers</target>
+      </trans-unit>
+      <trans-unit id="uLHYlMa" resname="Categories">
+        <source>Categories</source>
+        <target>Категории</target>
+      </trans-unit>
+      <trans-unit id="VqCSnXL" resname="manage my customer account">
+        <source>manage my customer account</source>
+        <target>Управление учётной записью</target>
+      </trans-unit>
+      <trans-unit id="LrtpBy6" resname="my merchandise returns">
+        <source>my merchandise returns</source>
+        <target>мои возвраты</target>
+      </trans-unit>
+      <trans-unit id="8z7QjjZ" resname="manage my personal information">
+        <source>manage my personal information</source>
+        <target>управление моей информацией</target>
+      </trans-unit>
+      <trans-unit id="hxYE_d1" resname="Testimonial">
+        <source>Testimonial</source>
+        <target>Отзыв</target>
+      </trans-unit>
+      <trans-unit id="Tq8dgCk" resname="Invalid email address">
+        <source>Invalid email address</source>
+        <target>Invalid email address</target>
+      </trans-unit>
+      <trans-unit id="Wjh6Rl9" resname="Sign up for our newsletter[1][2]%conditions%[/2]">
+        <source>Sign up for our newsletter[1][2]%conditions%[/2]</source>
+        <target>Подпишитесь на нашу рассылку[1][2]%conditions%[/2]</target>
+      </trans-unit>
+      <trans-unit id="fSWywJn" resname="Invalid email address.">
+        <source>Invalid email address.</source>
+        <target>Недопустимый адрес email.</target>
+      </trans-unit>
+      <trans-unit id="HHQ8DNh" resname="This email address is not registered.">
+        <source>This email address is not registered.</source>
+        <target>Этот адрес электронной почты не зарегистрирован.</target>
+      </trans-unit>
+      <trans-unit id="GbAePgj" resname="An error occurred while attempting to unsubscribe.">
+        <source>An error occurred while attempting to unsubscribe.</source>
+        <target>При попытке отписаться произошла ошибка.</target>
+      </trans-unit>
+      <trans-unit id="TXUhY8G" resname="Unsubscription successful.">
+        <source>Unsubscription successful.</source>
+        <target>Успешная отписка.</target>
+      </trans-unit>
+      <trans-unit id="jQ.ZPnr" resname="This email address is already registered.">
+        <source>This email address is already registered.</source>
+        <target>Этот адрес email уже зарегистрирован.</target>
+      </trans-unit>
+      <trans-unit id="GaQrmT1" resname="An error occurred during the subscription process.">
+        <source>An error occurred during the subscription process.</source>
+        <target>Произошла ошибка при подписке.</target>
+      </trans-unit>
+      <trans-unit id="Eec25W9" resname="A verification email has been sent. Please check your inbox.">
+        <source>A verification email has been sent. Please check your inbox.</source>
+        <target>Вам отправлено проверочное сообщение по email. Проверьте свой почтовый ящик.</target>
+      </trans-unit>
+      <trans-unit id="gF7xw9p" resname="You have successfully subscribed to this newsletter.">
+        <source>You have successfully subscribed to this newsletter.</source>
+        <target>Вы подписались на рассылку.</target>
+      </trans-unit>
+      <trans-unit id="55c0hIL" resname="This email is already registered and/or invalid.">
+        <source>This email is already registered and/or invalid.</source>
+        <target>Этот адрес email уже зарегистрирован или недействителен.</target>
+      </trans-unit>
+      <trans-unit id="f9GJOY0" resname="Thank you for subscribing to our newsletter.">
+        <source>Thank you for subscribing to our newsletter.</source>
+        <target>Благодарим вас за подписку на нашу рассылку.</target>
+      </trans-unit>
+      <trans-unit id="O4aCFi0" resname="You may unsubscribe at any moment. For that purpose, please find our contact info in the legal notice.">
+        <source>You may unsubscribe at any moment. For that purpose, please find our contact info in the legal notice.</source>
+        <target>You may unsubscribe at any moment. For that purpose, please find our contact info in the legal notice.</target>
+      </trans-unit>
+      <trans-unit id="X6laOUU" resname="Newsletter subscription: Unable to delete customer using email.">
+        <source>Newsletter subscription: Unable to delete customer using email.</source>
+        <target>Newsletter subscription: Unable to delete customer using email.</target>
+      </trans-unit>
+      <trans-unit id=".t96hJL" resname="Newsletter subscription: No data found.">
+        <source>Newsletter subscription: No data found.</source>
+        <target>Newsletter subscription: No data found.</target>
+      </trans-unit>
+      <trans-unit id="_Eyi53F" resname="Newsletter">
+        <source>Newsletter</source>
+        <target>Рассылка</target>
+      </trans-unit>
+      <trans-unit id="AbAqF6h" resname="Your e-mail">
+        <source>Your e-mail</source>
+        <target>Ваш e-mail</target>
+      </trans-unit>
+      <trans-unit id="zA442px" resname="Subscribe">
+        <source>Subscribe</source>
+        <target>Подписаться</target>
+      </trans-unit>
+      <trans-unit id="GDxwgRA" resname="Do not show again">
+        <source>Do not show again</source>
+        <target>Больше не показывать</target>
+      </trans-unit>
+      <trans-unit id="fozSBW2" resname="Title">
+        <source>Title</source>
+        <target>Обращение</target>
+      </trans-unit>
+      <trans-unit id="fTG4MxO" resname="Notification">
+        <source>Notification</source>
+        <target>Уведомление</target>
+      </trans-unit>
+      <trans-unit id="fhsNVkH" resname="Account">
+        <source>Account</source>
+        <target>Учетная запись</target>
+      </trans-unit>
+      <trans-unit id="mecfSMS" resname="Checkout">
+        <source>Checkout</source>
+        <target>Checkout</target>
+      </trans-unit>
+      <trans-unit id="T1j3H0b" resname="Order confirmation">
+        <source>Order confirmation</source>
+        <target>Order confirmation</target>
+      </trans-unit>
+      <trans-unit id="5iuz7P_" resname="Shopping cart">
+        <source>Shopping cart</source>
+        <target>Корзина</target>
+      </trans-unit>
+      <trans-unit id="EI_eAjm" resname="Recaptcha site key and secret key required.">
+        <source>Recaptcha site key and secret key required.</source>
+        <target>Требуются секретный ключ и ключ сайта Recaptcha.</target>
+      </trans-unit>
+      <trans-unit id="1eDrqx4" resname="Recaptcha validate failed.">
+        <source>Recaptcha validate failed.</source>
+        <target>Не удалось проверить Recaptcha.</target>
+      </trans-unit>
+      <trans-unit id="QNk0vsE" resname="Invalid  Product">
+        <source>Invalid  Product</source>
+        <target>Недопустимый товар</target>
+      </trans-unit>
+      <trans-unit id="OIhR34V" resname="Product not found">
+        <source>Product not found</source>
+        <target>Товар не найден</target>
+      </trans-unit>
+      <trans-unit id="WmiYvrr" resname="New comment for product">
+        <source>New comment for product</source>
+        <target>New comment for product</target>
+      </trans-unit>
+      <trans-unit id="JIDpdQ1" resname="Invalid parameter">
+        <source>Invalid parameter</source>
+        <target>Недопустимый параметр</target>
+      </trans-unit>
+      <trans-unit id="8E2EVd3" resname="Invalid name">
+        <source>Invalid name</source>
+        <target>Недопустимое имя</target>
+      </trans-unit>
+      <trans-unit id="sk5W60." resname="Thank you for your reply.">
+        <source>Thank you for your reply.</source>
+        <target>Спасибо за ваш ответ.</target>
+      </trans-unit>
+      <trans-unit id="jGTGMxb" resname="An error occurred during the image upload.">
+        <source>An error occurred during the image upload.</source>
+        <target>При загрузке изображения произошла ошибка.</target>
+      </trans-unit>
+      <trans-unit id="cLvPcjp" resname="Please upload an image.">
+        <source>Please upload an image.</source>
+        <target>Пожалуйста, загрузите изображение.</target>
+      </trans-unit>
+      <trans-unit id="T8q4WwR" resname="Invalid parameters">
+        <source>Invalid parameters</source>
+        <target>Недопустимые параметры</target>
+      </trans-unit>
+      <trans-unit id="hMt4cbd" resname="Reviews">
+        <source>Reviews</source>
+        <target>Отзывы</target>
+      </trans-unit>
+      <trans-unit id=".mDYURx" resname="Popularity">
+        <source>Popularity</source>
+        <target>Популярность</target>
+      </trans-unit>
+      <trans-unit id="ZORLTQD" resname="Most helpful">
+        <source>Most helpful</source>
+        <target>Самое полезное</target>
+      </trans-unit>
+      <trans-unit id="0V76F4z" resname="Newest">
+        <source>Newest</source>
+        <target>Новейшее</target>
+      </trans-unit>
+      <trans-unit id="UF3EUHU" resname="Oldest">
+        <source>Oldest</source>
+        <target>Старейшее</target>
+      </trans-unit>
+      <trans-unit id="5ouiWrA" resname="Most commented">
+        <source>Most commented</source>
+        <target>Наиболее комментируемое</target>
+      </trans-unit>
+      <trans-unit id="CQVQqJm" resname="5 stars">
+        <source>5 stars</source>
+        <target>5 звезд</target>
+      </trans-unit>
+      <trans-unit id="NnhAuiN" resname="4 stars">
+        <source>4 stars</source>
+        <target>4 звезды</target>
+      </trans-unit>
+      <trans-unit id="aXpPtkc" resname="3 stars">
+        <source>3 stars</source>
+        <target>3 звезды</target>
+      </trans-unit>
+      <trans-unit id="rrGgvdh" resname="2 stars">
+        <source>2 stars</source>
+        <target>2 звезды</target>
+      </trans-unit>
+      <trans-unit id="Gd_Csqv" resname="1 stars">
+        <source>1 stars</source>
+        <target>1 звезда</target>
+      </trans-unit>
+      <trans-unit id="eFNMvRC" resname="Comment was deleted.">
+        <source>Comment was deleted.</source>
+        <target>Комментарий удален.</target>
+      </trans-unit>
+      <trans-unit id="Pgr9hUn" resname="Error occurred when deleting comment.">
+        <source>Error occurred when deleting comment.</source>
+        <target>При удалении комментария произошла ошибка.</target>
+      </trans-unit>
+      <trans-unit id="qS6.B8G" resname="Invalid secure key">
+        <source>Invalid secure key</source>
+        <target>Недопустимый ключ безопасности</target>
+      </trans-unit>
+      <trans-unit id="s_h0F5p" resname="Product comments">
+        <source>Product comments</source>
+        <target>Комментарии товара</target>
+      </trans-unit>
+      <trans-unit id="sGfDq_X" resname="Are you sure report abuse ?">
+        <source>Are you sure report abuse ?</source>
+        <target>Точно хотите сообщить о злоупотреблении?</target>
+      </trans-unit>
+      <trans-unit id="f8RxaGo" resname="#left / #max Characters left.">
+        <source>#left / #max Characters left.</source>
+        <target>#left / #max симв.</target>
+      </trans-unit>
+      <trans-unit id="eRj.4Xo" resname="Product comments: No data found.">
+        <source>Product comments: No data found.</source>
+        <target>Product comments: No data found.</target>
+      </trans-unit>
+      <trans-unit id="giurjUG" resname="Quantity">
+        <source>Quantity</source>
+        <target>Количество</target>
+      </trans-unit>
+      <trans-unit id="BNta4zL" resname="Order reference">
+        <source>Order reference</source>
+        <target>Код заказа</target>
+      </trans-unit>
+      <trans-unit id="mcQKtAW" resname="Date">
+        <source>Date</source>
+        <target>Дата</target>
+      </trans-unit>
+      <trans-unit id="4sdra3F" resname="You have commented on the product.">
+        <source>You have commented on the product.</source>
+        <target>Вы прокомментировали товар.</target>
+      </trans-unit>
+      <trans-unit id="6Fi0iMd" resname="view my comment">
+        <source>view my comment</source>
+        <target>смотреть мой комментарий</target>
+      </trans-unit>
+      <trans-unit id="4MzqgNr" resname="Describe it:">
+        <source>Describe it:</source>
+        <target>Опишите это:</target>
+      </trans-unit>
+      <trans-unit id="LpZ_o1p" resname="Use a comma to seperate words.">
+        <source>Use a comma to seperate words.</source>
+        <target>Используйте запятую для разделения слов.</target>
+      </trans-unit>
+      <trans-unit id="LuIny8_" resname="Describe this product using simple and short words.">
+        <source>Describe this product using simple and short words.</source>
+        <target>Опишите этот продукт используя простые и короткие слова.</target>
+      </trans-unit>
+      <trans-unit id="gd8g7Go" resname="Review(required):">
+        <source>Review(required):</source>
+        <target>Отзыв(обязательно):</target>
+      </trans-unit>
+      <trans-unit id="Zt1ae.I" resname="Upload images:">
+        <source>Upload images:</source>
+        <target>Загрузка изображений:</target>
+      </trans-unit>
+      <trans-unit id="lRiEcrx" resname="Drop images here or click to upload.">
+        <source>Drop images here or click to upload.</source>
+        <target>Бросьте изображения сюда, или кликните для загрузки.</target>
+      </trans-unit>
+      <trans-unit id=".HVCXmA" resname="Back to my comments">
+        <source>Back to my comments</source>
+        <target>Вернуться к моим комментариям</target>
+      </trans-unit>
+      <trans-unit id="TEb6NzF" resname="Your comment is awaiting moderation before being published.">
+        <source>Your comment is awaiting moderation before being published.</source>
+        <target>Ваш комментарий ожидает модерации перед публикацией.</target>
+      </trans-unit>
+      <trans-unit id="BCHeEgR" resname="Enter your name">
+        <source>Enter your name</source>
+        <target>Укажите ваше имя</target>
+      </trans-unit>
+      <trans-unit id="FV_BbAQ" resname="Submit">
+        <source>Submit</source>
+        <target>Отправить</target>
+      </trans-unit>
+      <trans-unit id="YN4SGOL" resname="Order reference:">
+        <source>Order reference:</source>
+        <target>Код заказа:</target>
+      </trans-unit>
+      <trans-unit id="VjpPJ_1" resname="Payment:">
+        <source>Payment:</source>
+        <target>Оплата:</target>
+      </trans-unit>
+      <trans-unit id="tRSJvej" resname="Date:">
+        <source>Date:</source>
+        <target>Дата:</target>
+      </trans-unit>
+      <trans-unit id="pGa7XOE" resname="View my review">
+        <source>View my review</source>
+        <target>Посмотреть мой обзор</target>
+      </trans-unit>
+      <trans-unit id="E2KGvFq" resname="Write a review">
+        <source>Write a review</source>
+        <target>Написать отзыв</target>
+      </trans-unit>
+      <trans-unit id="l9rYb2q" resname="Order is pending">
+        <source>Order is pending</source>
+        <target>Заказ в ожидании</target>
+      </trans-unit>
+      <trans-unit id="jwg78Pe" resname="No order items">
+        <source>No order items</source>
+        <target>Заказ пуст</target>
+      </trans-unit>
+      <trans-unit id="aS.krQ_" resname="No orders">
+        <source>No orders</source>
+        <target>Заказов нет</target>
+      </trans-unit>
+      <trans-unit id="7mK4MFe" resname="Overall rating">
+        <source>Overall rating</source>
+        <target>Общий рейтинг</target>
+      </trans-unit>
+      <trans-unit id="r.B2alK" resname="Review">
+        <source>Review</source>
+        <target>Обзор</target>
+      </trans-unit>
+      <trans-unit id="hkyFXj1" resname="Someone">
+        <source>Someone</source>
+        <target>Кто-то</target>
+      </trans-unit>
+      <trans-unit id="vyaH7lA" resname="Click to zoom out">
+        <source>Click to zoom out</source>
+        <target>Нажмите, чтобы уменьшить</target>
+      </trans-unit>
+      <trans-unit id="F55aIcw" resname="Report abuse">
+        <source>Report abuse</source>
+        <target>Сообщить о нарушении</target>
+      </trans-unit>
+      <trans-unit id="jCNre64" resname="Helpful?">
+        <source>Helpful?</source>
+        <target>Полезно?</target>
+      </trans-unit>
+      <trans-unit id="haOas0X" resname="Yes">
+        <source>Yes</source>
+        <target>Да</target>
+      </trans-unit>
+      <trans-unit id="HqRCoTS" resname="No">
+        <source>No</source>
+        <target>Нет</target>
+      </trans-unit>
+      <trans-unit id="q4S.mPJ" resname="All reviews">
+        <source>All reviews</source>
+        <target>Все отзывы</target>
+      </trans-unit>
+      <trans-unit id="mRZ36pK" resname="All stars">
+        <source>All stars</source>
+        <target>Все звезды</target>
+      </trans-unit>
+      <trans-unit id="doa7RxD" resname="With pictures">
+        <source>With pictures</source>
+        <target>С фотографиями</target>
+      </trans-unit>
+      <trans-unit id="PJswKF_" resname="Sort order">
+        <source>Sort order</source>
+        <target>Порядок сортировки</target>
+      </trans-unit>
+      <trans-unit id="ElRmuCH" resname="By">
+        <source>By</source>
+        <target>По</target>
+      </trans-unit>
+      <trans-unit id="b8h4cs0" resname="To be the first to write a review">
+        <source>To be the first to write a review</source>
+        <target>Будьте первым, кто написал отзыв</target>
+      </trans-unit>
+      <trans-unit id="NErQWmn" resname="Leave a review">
+        <source>Leave a review</source>
+        <target>Leave a review</target>
+      </trans-unit>
+      <trans-unit id="SNfuvsB" resname="Custom name(required):">
+        <source>Custom name(required):</source>
+        <target>Custom name(required):</target>
+      </trans-unit>
+      <trans-unit id="R0gqU4a" resname="Previous product">
+        <source>Previous product</source>
+        <target>Предыдущий товар</target>
+      </trans-unit>
+      <trans-unit id="Nti0scb" resname="Next product">
+        <source>Next product</source>
+        <target>Следующий товар</target>
+      </trans-unit>
+      <trans-unit id="LCTTWhF" resname="QR code">
+        <source>QR code</source>
+        <target>QR-код</target>
+      </trans-unit>
+      <trans-unit id="7ZefINu" resname="Scan the QR code to open this page on your phone.">
+        <source>Scan the QR code to open this page on your phone.</source>
+        <target>Отсканируйте код QR, чтобы открыть эту страницу на вашем телефоне.</target>
+      </trans-unit>
+      <trans-unit id="XpoPdU6" resname="Search our catalog">
+        <source>Search our catalog</source>
+        <target>Поиск по каталогу</target>
+      </trans-unit>
+      <trans-unit id="x4X8An7" resname="More products.">
+        <source>More products.</source>
+        <target>Больше товаров.</target>
+      </trans-unit>
+      <trans-unit id="vaCGs3w" resname="Click for more products.">
+        <source>Click for more products.</source>
+        <target>Нажмите, чтобы увидеть больше товаров.</target>
+      </trans-unit>
+      <trans-unit id="jmc5gfc" resname="No produts were found.">
+        <source>No produts were found.</source>
+        <target>Товаров не найдено.</target>
+      </trans-unit>
+      <trans-unit id="zHZMkWI" resname="Search here">
+        <source>Search here</source>
+        <target>Поиск</target>
+      </trans-unit>
+      <trans-unit id="GqGrY2n" resname="More products »">
+        <source>More products »</source>
+        <target>Ещё товары »</target>
+      </trans-unit>
+      <trans-unit id="ASvSxZc" resname="Customers who bought this product also bought:">
+        <source>Customers who bought this product also bought:</source>
+        <target>Клиенты, купившие этот товар, также купили:</target>
+      </trans-unit>
+      <trans-unit id="3Mg5pAF" resname="View">
+        <source>View</source>
+        <target>Просмотр</target>
+      </trans-unit>
+      <trans-unit id="TJe6b3C" resname="Popup shopping cart">
+        <source>Popup shopping cart</source>
+        <target>Показать окно корзины</target>
+      </trans-unit>
+      <trans-unit id="B3z8Tih" resname="Product successfully added to your shopping cart">
+        <source>Product successfully added to your shopping cart</source>
+        <target>Товар добавлен в вашу корзину</target>
+      </trans-unit>
+      <trans-unit id="JkoiT9G" resname="Continue shopping">
+        <source>Continue shopping</source>
+        <target>Продолжить покупки</target>
+      </trans-unit>
+      <trans-unit id="nQJ3ox6" resname="Proceed to checkout">
+        <source>Proceed to checkout</source>
+        <target>Перейти к оформлению</target>
+      </trans-unit>
+      <trans-unit id="Ep06LNx" resname="Products you may like">
+        <source>Products you may like</source>
+        <target>Товары, которые могут вам понравиться</target>
+      </trans-unit>
+      <trans-unit id="jjVIQ4G" resname="Your shopping cart is empty.">
+        <source>Your shopping cart is empty.</source>
+        <target>Ваша корзина пуста.</target>
+      </trans-unit>
+      <trans-unit id="bS1ZrtR" resname="Cart">
+        <source>Cart</source>
+        <target>Корзина</target>
+      </trans-unit>
+      <trans-unit id="IC.dRMo" resname="View my shopping cart">
+        <source>View my shopping cart</source>
+        <target>Посмотреть мою корзину</target>
+      </trans-unit>
+      <trans-unit id="vQ.7EGu" resname="item(s)">
+        <source>item(s)</source>
+        <target>товар(а, ов)</target>
+      </trans-unit>
+      <trans-unit id="OXPgIuk" resname="-">
+        <source>-</source>
+        <target>-</target>
+      </trans-unit>
+      <trans-unit id="6rGexpS" resname="Recently Viewed">
+        <source>Recently Viewed</source>
+        <target>Недавно просмотренные</target>
+      </trans-unit>
+      <trans-unit id="GyjReFW" resname="Viewed">
+        <source>Viewed</source>
+        <target>Просмотренное</target>
+      </trans-unit>
+      <trans-unit id="1c389.9" resname="Top">
+        <source>Top</source>
+        <target>Вверх</target>
+      </trans-unit>
+      <trans-unit id="KYh6X.m" resname="Share">
+        <source>Share</source>
+        <target>Поделиться</target>
+      </trans-unit>
+      <trans-unit id="M8ttTn_" resname="Compare Products">
+        <source>Compare Products</source>
+        <target>Сравнение товаров</target>
+      </trans-unit>
+      <trans-unit id="sF2VxiN" resname="Back to top">
+        <source>Back to top</source>
+        <target>Вернуться к началу</target>
+      </trans-unit>
+      <trans-unit id="pP5lJk7" resname="Language">
+        <source>Language</source>
+        <target>Language</target>
+      </trans-unit>
+      <trans-unit id="OsGp7E_" resname="Currency">
+        <source>Currency</source>
+        <target>Currency</target>
+      </trans-unit>
+      <trans-unit id="psISZEg" resname="Share on social networks">
+        <source>Share on social networks</source>
+        <target>Поделиться в социальных сетях</target>
+      </trans-unit>
+      <trans-unit id="b1pRQNw" resname="Popular tags">
+        <source>Popular tags</source>
+        <target>Популярные теги</target>
+      </trans-unit>
+      <trans-unit id="68qDrVh" resname="%curr% of %total%">
+        <source>%curr% of %total%</source>
+        <target>%curr% of %total%</target>
+      </trans-unit>
+      <trans-unit id="vzjZ4Ut" resname="All products of this manufacturer">
+        <source>All products of this manufacturer</source>
+        <target>Все товары этого производителя</target>
+      </trans-unit>
+      <trans-unit id="pW6owCe" resname="Add to wishlist">
+        <source>Add to wishlist</source>
+        <target>Добавить в список пожеланий</target>
+      </trans-unit>
+      <trans-unit id="ynmBtG7" resname="Off">
+        <source>Off</source>
+        <target>Выкл</target>
+      </trans-unit>
+      <trans-unit id="FQn1YfJ" resname="Save">
+        <source>Save</source>
+        <target>Сохранить</target>
+      </trans-unit>
+      <trans-unit id="hrC9WvB" resname="Wishlists">
+        <source>Wishlists</source>
+        <target>Списки пожеланий</target>
+      </trans-unit>
+      <trans-unit id="owiUiD3" resname="The product was successfully added to your wishlist.">
+        <source>The product was successfully added to your wishlist.</source>
+        <target>Товар добавлен в ваш список пожеланий.</target>
+      </trans-unit>
+      <trans-unit id="bo9rzXD" resname="Add to %s">
+        <source>Add to %s</source>
+        <target>Добавить в %s</target>
+      </trans-unit>
+      <trans-unit id="0lapXJo" resname="My wishlists">
+        <source>My wishlists</source>
+        <target>Мои списки пожеланий</target>
+      </trans-unit>
+      <trans-unit id="asezh_Q" resname="Open video">
+        <source>Open video</source>
+        <target>Открыть видео</target>
+      </trans-unit>
+      <trans-unit id="rAdVPJc" resname="View video">
+        <source>View video</source>
+        <target>Смотреть видео</target>
+      </trans-unit>
+      <trans-unit id="HRSMyIo" resname="You must specify a name.">
+        <source>You must specify a name.</source>
+        <target>Необходимо указать имя.</target>
+      </trans-unit>
+      <trans-unit id="Yf.UV_P" resname="This name is already used by another list.">
+        <source>This name is already used by another list.</source>
+        <target>Это имя уже используется в другом списке.</target>
+      </trans-unit>
+      <trans-unit id="mrFS_b0" resname="Cannot delete this wishlist">
+        <source>Cannot delete this wishlist</source>
+        <target>Не удается удалить этот список пожеланий</target>
+      </trans-unit>
+      <trans-unit id="y6Jf0Ka" resname="Product added to wishlist.">
+        <source>Product added to wishlist.</source>
+        <target>Товар добавлен в список пожеланий.</target>
+      </trans-unit>
+      <trans-unit id="ImkbxRS" resname="Error occurred when adding products.">
+        <source>Error occurred when adding products.</source>
+        <target>При добавлении товаров произошла ошибка.</target>
+      </trans-unit>
+      <trans-unit id="wKxRzho" resname="Failed to delete this product">
+        <source>Failed to delete this product</source>
+        <target>Не удаётся удалить товар</target>
+      </trans-unit>
+      <trans-unit id="PQzoYEA" resname="This name is already used by another list">
+        <source>This name is already used by another list</source>
+        <target>Это имя уже используется в другом списке</target>
+      </trans-unit>
+      <trans-unit id="TcCfMOB" resname="Wishlist created">
+        <source>Wishlist created</source>
+        <target>Список пожеланий создан</target>
+      </trans-unit>
+      <trans-unit id="OA7u_s2" resname="Create wishilist failed">
+        <source>Create wishilist failed</source>
+        <target>Не удалось создать список пожеланий</target>
+      </trans-unit>
+      <trans-unit id="gLInKOK" resname="Quantity updated">
+        <source>Quantity updated</source>
+        <target>Количество обновлено</target>
+      </trans-unit>
+      <trans-unit id="d7rRv37" resname="Update quantity failed">
+        <source>Update quantity failed</source>
+        <target>Не удалось обновить количество</target>
+      </trans-unit>
+      <trans-unit id="CkQxN6s" resname="Email Address is not correct:">
+        <source>Email Address is not correct:</source>
+        <target>Неверный адрес e-mail:</target>
+      </trans-unit>
+      <trans-unit id=".xrMRi8" resname="This wishlist does not exist">
+        <source>This wishlist does not exist</source>
+        <target>Такого списка не существует</target>
+      </trans-unit>
+      <trans-unit id="tRzUjOs" resname="An error occurred when sending this wishlist.">
+        <source>An error occurred when sending this wishlist.</source>
+        <target>При отправке этого списка произошла ошибка.</target>
+      </trans-unit>
+      <trans-unit id="YvUv2Ll" resname="An error occurred:">
+        <source>An error occurred:</source>
+        <target>Произошла ошибка:</target>
+      </trans-unit>
+      <trans-unit id="Yp.96ON" resname="This wishlist was sent.">
+        <source>This wishlist was sent.</source>
+        <target>Этот список отправлен.</target>
+      </trans-unit>
+      <trans-unit id="LV1UOM8" resname="Create a wishlist">
+        <source>Create a wishlist</source>
+        <target>Создать список пожеланий</target>
+      </trans-unit>
+      <trans-unit id="R1lJisK" resname="Create">
+        <source>Create</source>
+        <target>Создать</target>
+      </trans-unit>
+      <trans-unit id="r2DfzyG" resname="Delete wishlist">
+        <source>Delete wishlist</source>
+        <target>Удалить список пожеланий</target>
+      </trans-unit>
+      <trans-unit id="2.Ni1PI" resname="Copy link">
+        <source>Copy link</source>
+        <target>Копировать ссылку</target>
+      </trans-unit>
+      <trans-unit id="ifkjCDl" resname="Share with a friend">
+        <source>Share with a friend</source>
+        <target>Поделиться с друзьями</target>
+      </trans-unit>
+      <trans-unit id="8kiP1O9" resname="Email address">
+        <source>Email address</source>
+        <target>Адрес электронной почты</target>
+      </trans-unit>
+      <trans-unit id="9vRoj.I" resname="Send">
+        <source>Send</source>
+        <target>Отправить</target>
+      </trans-unit>
+      <trans-unit id="ROAzcYO" resname="Back to wishlists">
+        <source>Back to wishlists</source>
+        <target>Вернуться к спискам</target>
+      </trans-unit>
+      <trans-unit id="hfUZHAC" resname="No products.">
+        <source>No products.</source>
+        <target>Нет продуктов.</target>
+      </trans-unit>
+      <trans-unit id="EaRPgOy" resname="Create a free account to use wishlists.">
+        <source>Create a free account to use wishlists.</source>
+        <target>Создайте учётную запись для использования списков пожеланий.</target>
+      </trans-unit>
+      <trans-unit id="PwCKV1J" resname="View my wishlists">
+        <source>View my wishlists</source>
+        <target>Посмотреть мои списки пожеланий</target>
+      </trans-unit>
+      <trans-unit id="bakUlxm" resname="Save to wishlist">
+        <source>Save to wishlist</source>
+        <target>Сохранить в список пожеланий</target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

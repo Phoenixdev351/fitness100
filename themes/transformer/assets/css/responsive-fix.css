@@ -1,0 +1,99 @@
+/* Fix #12: Fix responsive design - prevent mobile format on desktop */
+
+/* Ensure proper viewport and prevent mobile layout on desktop */
+@media (min-width: 992px) {
+    body {
+        min-width: 992px !important;
+        overflow-x: auto !important;
+    }
+    
+    .container,
+    .container-fluid,
+    .wide_container,
+    .wide_container_box {
+        max-width: 1200px !important;
+        width: 100% !important;
+        margin-left: auto !important;
+        margin-right: auto !important;
+    }
+    
+    /* Force desktop menu - hide mobile menu on desktop */
+    .mobile-menu,
+    .hamburger-menu,
+    #mobile_bar,
+    #mobile_bar_container {
+        display: none !important;
+    }
+    
+    .desktop-menu,
+    .main-menu,
+    #header_primary,
+    #easymenu_container {
+        display: block !important;
+    }
+    
+    /* Prevent mobile-specific styles from applying on desktop */
+    .mobile-only,
+    .visible-xs,
+    .visible-sm {
+        display: none !important;
+    }
+    
+    /* Ensure proper text sizing on desktop */
+    html {
+        font-size: 16px !important;
+        -webkit-text-size-adjust: 100% !important;
+        -ms-text-size-adjust: 100% !important;
+    }
+    
+    /* Fix layout issues */
+    .row {
+        margin-left: -15px !important;
+        margin-right: -15px !important;
+    }
+    
+    [class*="col-"] {
+        padding-left: 15px !important;
+        padding-right: 15px !important;
+    }
+}
+
+/* General responsive fixes */
+html {
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+    text-size-adjust: 100%;
+}
+
+body {
+    overflow-x: auto;
+    min-width: 320px;
+}
+
+/* Prevent horizontal scroll on mobile */
+@media (max-width: 991px) {
+    body {
+        overflow-x: hidden !important;
+    }
+}
+
+/* Fix for common responsive issues */
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+table {
+    width: 100%;
+    max-width: 100%;
+    overflow-x: auto;
+    display: block;
+}
+
+/* Ensure proper box-sizing */
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+

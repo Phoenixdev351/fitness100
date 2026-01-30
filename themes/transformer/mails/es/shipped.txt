@@ -1,0 +1,19 @@
+{shop_url}
+
+Hola {firstname} {lastname},
+
+¡Gracias por comprar en {shop_name}!
+
+Su pedido con la referencia {order_name} ha sido enviado.
+INSTRUCCIONES PARA LA RECEPCIÓN DE LA MERCANCÍA
+El transportista no se hace cargo de los daños ocasionados durante el transporte si no se observan las siguientes instrucciones. Rogamos presten atención para evitar posibles perjuicios:
+1. Realice siempre una inspección visual antes de la firmar el albarán de entrega del transportista.
+2. En caso de detectarse daños a simple vista indique en el albarán de entrega "Mercancía dañada".
+3. Señale en el albarán de entrega “Recibido y pendiente de revisar” en el caso de no encontrar daños a primera vista pues algunos de ellos sólo se pondrán de manifiesto después de desembalar.
+4. Desembale siempre los productos en las horas siguientes a su recepción.
+5. Comunique los daños detectados en un plazo de 24 horas desde la recepción, pues los transportistas no se harán cargo de reclamaciones comunicadas fuera de este plazo.
+Las comunicaciones de incidencias deberán dirigirse por mail a info@100x100fitness.com acompañando una descripción lo más detallada posible de los daños junto con fotos y/o videos.
+Quedamos a su disposición para resolver cualquier duda sobre la recepción de la mercancía.
+Muchas gracias por su colaboración.
+Usted puede revisar su pedido y descargar la factura desde [Historial de pedidos y detalles]({history_url}) de su cuenta de cliente.
+
