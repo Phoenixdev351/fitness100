@@ -1,0 +1,10 @@
+# Except .gitignore itself
+*
+!.gitignore
+!.htaccess
+
+!themes/
+!themes/transformer/
+!themes/transformer/templates/
+!themes/transformer/templates/_partials/
+!themes/transformer/templates/_partials/head.tpl
