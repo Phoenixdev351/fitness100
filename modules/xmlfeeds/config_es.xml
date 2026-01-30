@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<module>
+    <name>xmlfeeds</name>
+    <displayName><![CDATA[XML feeds Pro]]></displayName>
+    <version><![CDATA[3.6.1]]></version>
+    <description><![CDATA[Export from Prestashop to XML]]></description>
+    <author><![CDATA[Bl Modules]]></author>
+    <tab><![CDATA[export]]></tab>
+	<confirmUninstall><![CDATA[Are you sure you want to delete the module?]]></confirmUninstall>
+    <is_configurable>1</is_configurable>
+    <need_instance>1</need_instance>
+	<limited_countries></limited_countries>
+</module>

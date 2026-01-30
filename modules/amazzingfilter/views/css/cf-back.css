@@ -1,0 +1,35 @@
+.cf-group {
+    display: flex;
+    align-items: center;
+    margin-bottom: 12px;
+}
+.cf-group .cf-label {
+    font-weight: normal;
+    text-align: right;
+    line-height: 1.2;
+    width: 25%;
+    padding-right: 10px;
+    margin: 0;
+}
+.cf-group .cf-value {
+    width: 30%;
+}
+.cf-group .field-info {
+    width: 45%
+}
+.cf-group.cf-criteria .cf-value {
+    width: 75%;
+}
+.cf-criteria .t-item {
+    cursor: move;
+}
+.cf-group .multilang-wrapper {
+    padding-right: 50px;
+    position: relative;
+}
+.cf-group .multilang-selector {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+/* since 3.3.0 */

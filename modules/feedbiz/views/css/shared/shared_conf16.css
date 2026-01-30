@@ -1,0 +1,26 @@
+#menuTab li {
+    max-width: 210px;
+    min-width: 160px;
+    display: inline-block !important;
+    border-bottom: 3px solid transparent;
+    margin-right: 20px;
+    height: 55px;
+}
+
+#menuTab li.menuTabButton.selected {
+    border-bottom: 3px solid #6495ED;
+}
+
+#menuTab li a:focus, #menuTab li a:visited {
+    background: none;
+}
+
+#ps16_tabs_separator {
+    clear:both;
+    border-bottom: 4px solid whitesmoke;
+    margin: 10px 0;
+}
+
+div.col-lg-1 {
+    text-align: center;
+}

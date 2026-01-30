@@ -1,0 +1,23 @@
+.alert.alert-info:before {
+    content: "\f05a"!important;
+    font-family: Fontawesome, sans-serif!important;
+}
+.alert.alert-warning:before {
+    content: "\f05a"!important;
+    font-family: Fontawesome, sans-serif!important;
+}
+@media (max-width: 1023px){
+    .sp_block_left{
+        top: auto;
+    }
+    .page-sidebar-closed .sp_block_left {
+        margin-left: -10px;
+        width: calc(100% + 20px);
+        width: -webkit-calc(100% + 20px);
+    }
+}
+@media (max-width: 991px){
+    .sp_block_left {
+        margin-top: -15px;
+    }
+}

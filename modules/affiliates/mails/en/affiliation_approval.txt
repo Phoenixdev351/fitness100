@@ -1,0 +1,14 @@
+
+[{shop_url}] 
+
+Hi {firstname_affiliate} {lastname_affiliate},
+ 
+Your affiliation request has been Approved.
+
+Invite your friends via email or share your referral link from "My account" section of your customer account to invite your friends and get rewards.
+ 
+ {shop_name} powered by PrestaShop™
+
+{shop_name} [{shop_url}] powered by
+PrestaShop(tm) [http://www.prestashop.com/] 
+

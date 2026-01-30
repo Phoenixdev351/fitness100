@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<module>
+    <name>stowlcarousel</name>
+    <displayName><![CDATA[Owl Carousel slider]]></displayName>
+    <version><![CDATA[2.2.2]]></version>
+    <description><![CDATA[Touch enabled jquery plugin that lets you create beautiful responsive carousel slider.]]></description>
+    <author><![CDATA[SUNNYTOO.COM]]></author>
+    <tab><![CDATA[front_office_features]]></tab>
+    <is_configurable>1</is_configurable>
+    <need_instance>0</need_instance>
+	<limited_countries></limited_countries>
+</module>

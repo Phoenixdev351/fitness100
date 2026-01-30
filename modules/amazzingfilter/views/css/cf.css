@@ -1,0 +1,244 @@
+.cf-btn {
+	display: inline-block;
+	padding: 15px;
+}
+.cf-modal {
+	position: fixed;
+	left: 0;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	z-index: 99999;
+	display: none;
+}
+.show-modal .cf-modal {
+	display: block;
+}
+.cf-modal-overlay {
+	position: absolute;
+	left: 0;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	background: rgba(0,0,0,0.3);
+}
+.cf-modal-content {
+	position: fixed;
+	left: 50%;
+	top: 30%;
+	max-width: 80%;
+	transform: translate(-50%, -30%);
+	background: #FFF;
+	padding: 30px;
+	box-sizing: border-box;
+	box-shadow: 0px 0 30px rgba(0,0,0,0.5);
+}
+.cf-modal .close-modal {
+	position: absolute;
+	top: 0;
+	right: 0;
+	font-size: 2em;
+	padding: 10px;
+	text-decoration: none;
+}
+.cf-groups {
+	margin: 0 -5px;
+}
+.cf-group,
+.cf-submit-holder {
+	padding: 10px 5px 5px 5px;
+	position: relative;
+}
+.cf-label {
+	font-weight: bold;
+	color: #232323;
+	padding: 0 3px 5px 3px;
+}
+.cf-select {
+	width: 100%;
+	border: 2px solid #AAB2BD;
+	padding: 7px 10px;
+}
+.cf-submit {
+	width: 100%;
+	padding: 12px 20px;
+	line-height: 1;
+}
+.cf-reset-holder {
+	text-align: right;
+	margin: 5px 0 -10px 0;
+}
+.cf-form .cf-reset {
+	color: #E54E4B;
+	font-size: 14px;
+	line-height: 1;
+	padding: 5px 3px 5px 15px;
+	cursor: pointer;
+	background: none;
+	border: 0;
+	outline: none;
+	position: relative;
+}
+.cf-reset:before {
+	content: "×";
+	font: bold 16px/12px Arial;
+	position: absolute;
+	left: 3px;
+	bottom: 5px;
+}
+.cf-reset.loading:before {
+	content: '';
+	width: 12px;
+	height: 12px;
+	margin: 0 0 1px -3px;
+	border: 2px solid;
+	border-left-color: transparent;
+	border-radius: 100%;
+	animation: cfspin 0.4s infinite linear;
+}
+.cf-related .blocked {
+	opacity: 0.5;
+}
+.cf-related .blocked:before {
+	content: '';
+	position: absolute;
+	left: 0;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	cursor: not-allowed;
+}
+/* loading */
+.cf-wrapper.loading {
+	position: relative;
+}
+.cf-wrapper.loading:after,
+.cf-submit-holder.loading:after {
+	content: '';
+	position: absolute;
+	display: inline-block;
+	width: 18px;
+	height: 18px;
+	left: 50%;
+	top: 50%;
+	margin-left: -9px;
+	margin-top: -9px;
+	border: 2px solid;
+	border-left-color: transparent;
+	opacity: 0.5;
+	border-radius: 100%;
+	z-index: 2;
+	animation: cfspin 0.4s infinite linear;
+}
+.cf-wrapper.loading .cf-btn,
+.cf-submit-holder.loading .cf-submit {
+	opacity: 0;
+	pointer-events: none;
+}
+@keyframes cfspin {
+	0% {transform:rotate(0deg);}
+	100% {transform:rotate(360deg);}
+}
+/* inline display */
+@media (min-width: 767px) {
+	.cf-groups {
+		display: flex;
+		align-items: flex-end;
+	}
+	.cf-group {
+		flex: 1;
+		min-width: 150px;
+	}
+	.cf-groups.multirow {
+		flex-wrap: wrap;
+	}
+	.cf-groups.multirow .cf-group,
+	.cf-groups.multirow .cf-submit-holder {
+		flex: 0;
+		min-width: 25%;
+	}
+}
+/* in filter block */
+#amazzing_filter .cf-btn {
+	display: block;
+	font-size: 12px;
+	line-height: 1.1;
+	font-weight: 500;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+	text-align: center;
+	padding: 8px 20px;
+	border: 2px solid;
+}
+.cf-wrapper.top {
+	margin: 10px 0;
+}
+.cf-wrapper.bottom {
+	margin-top: 10px;
+}
+#amazzing_filter .cf-submit {
+	font-size: 1em;
+}
+/* horizontal layout */
+.horizontal-layout .cf-wrapper {
+	margin: 0;
+}
+.horizontal-layout .cf-btn {
+	padding: 10px;
+}
+/* compact layout*/
+.has-compact-filter #amazzing_filter .cf-wrapper.top {
+	margin: 0 0 10px 0;
+}
+.has-compact-filter #amazzing_filter .cf-modal-content {
+	top: 0;
+	left: 0;
+	right: 32px;
+	max-width: none;
+	transform: none;
+}
+.has-compact-filter #amazzing_filter .cf-wrapper.bottom .cf-modal-content {
+	top: auto;
+	bottom: 0;
+}
+.has-compact-filter .af-form.has-cf-bottom {
+	padding-bottom: 120px;
+}
+/* locked filters */
+.af .unlocked a {
+	color: #AAB2BD;
+}
+.hide-zero-matches .no-matches.has-customer-filter {
+	display: block;
+}
+.active .customer-filter-label .af-color-box a {
+	color: #FFF;
+	line-height: 25px;
+}
+.active .customer-filter-label .af-color-box {
+	width: 25px;
+	min-width: 25px;
+	height: 25px;
+	margin: 0;
+}
+.active .customer-filter-label .af-color-box:after {
+	display: none;
+}
+.af_filter .active .customer-filter-label .af-color-box.bright a {
+	color: #AAB2BD;
+}
+.dim-zero-matches .no-matches.active .customer-filter-label .af-color-box:before {
+	left: 0;
+}
+.af-textbox-label.customer-filter-label > a {
+	line-height: 0;
+	margin-right: 5px;
+}
+.customer-filter-label.for-select {
+	float: left;
+	line-height: 30px;
+}
+.selector-with-customer-filter {
+	padding-left: 1.2em;
+}
+/* since 3.2.6 */

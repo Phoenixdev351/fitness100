@@ -1,0 +1,48 @@
+/*
+ * Affiliates
+ *
+ * NOTICE OF LICENSE
+ *
+ * This source file is subject to the Open Software License (OSL 3.0)
+ * that is bundled with this package in the file LICENSE.txt.
+ * It is also available through the world-wide-web at this URL:
+ * http://opensource.org/licenses/osl-3.0.php
+ *
+ * @author    FMM Modules
+ * @copyright © Copyright 2021 - All right reserved
+ * @license   http://opensource.org/licenses/afl-3.0.php  Academic Free License (AFL 3.0)
+ * @category  FMM Modules
+ * @package   affiliates
+ */
+.icon-AdminAffiliation:before {
+  /*content: "\f0e8";*/
+  content:"\f21d";
+}
+
+.payment_process
+{
+  background: url(../../views/img/loader.gif) no-repeat center center #fff;
+  height: 100%;
+  left: 0;
+  opacity: 0.85;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  z-index: 99;
+
+}
+
+.affiliate_loader {
+  background: url(../../views/img/spinner.gif) no-repeat scroll top center #fff;
+  height: 100%;
+  left: 0;
+  opacity: 0.85;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  z-index: 99;
+}
+#fme-nav-wrap ul li:hover ul {
+display: block!important;
+opacity: 1;
+}

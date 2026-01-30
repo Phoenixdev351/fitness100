@@ -1,0 +1,17 @@
+
+[{shop_url}] 
+
+Hi, 
+
+New Affiliation Request
+You have received an affiliation request from one of your customer.
+
+Customer: {firstname} {lastname}
+
+Email: {email}
+
+Requested Date: {req_date} 		 
+
+{shop_name} [{shop_url}] powered by
+PrestaShop(tm) [http://www.prestashop.com/] 
+

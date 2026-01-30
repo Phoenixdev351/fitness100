@@ -1,0 +1,18 @@
+[{shop_url}] 
+
+{shop_name}
+{lastname_referral} {firstname_referral}, join us!
+ 
+Your friend {firstname} {lastname} wants to refer you on {shop_name}!
+
+It's very easy to sign up. Just click here! 	 
+ 
+{message}
+
+Sent by : {email}.
+
+Best regards,
+ 
+{shop_name} [{shop_url}] powered by
+PrestaShop(tm) [http://www.prestashop.com/]
+	 

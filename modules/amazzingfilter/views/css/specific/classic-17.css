@@ -1,0 +1,25 @@
+#amazzing_filter {
+	background: #FFF;
+	padding: 1.25rem;
+	box-shadow: 2px 2px 11px 0px rgba(0, 0, 0, 0.1);
+	margin-bottom: 1.5625rem;
+}
+.selectedFilters.inline {
+	background: #FFF;
+	padding: 15px 15px 5px 15px;
+	box-shadow: 2px 2px 11px 0px rgba(0, 0, 0, 0.1);
+	margin: 15px 0;
+}
+.has-compact-filter #amazzing_filter {
+	box-shadow: none;
+}
+.af-quick-search {
+	font-size: 0.9em;
+}
+#amazzing_filter.horizontal-layout {
+	margin: 0 0 1rem 0;
+}
+#amazzing_filter.horizontal-layout .h-el {
+	padding: 2px 5px;
+}
+/* since 3.2.3 */

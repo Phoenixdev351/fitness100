@@ -1,0 +1,25 @@
+select[name^=mode] { width: 450px !important; }
+
+/* codemirror */
+.CodeMirror {
+    border: 1px solid #c7d6db;
+    background-color: #f5f8f9;
+}
+
+/* Min height for tinyMCE fields */
+div.mce-edit-area iframe {
+    min-height: 100px;
+}
+
+/* TIME */
+.time-column {
+    width: auto;
+    height: 20px;
+    display: block;
+}
+
+.time-column.valid-date-icon { color: #72c279; }
+.time-column.future-date-icon { color: #f3e838; }
+.time-column.expired-date-icon { color: #e08f95; }
+
+.time-column [class^="icon-"] { font-size: 18px !important; }

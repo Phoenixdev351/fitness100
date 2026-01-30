@@ -1,0 +1,30 @@
+
+#productfeedbiz-options img {
+    position: relative;
+    top: -2px;
+}
+
+#productfeedbiz-options {
+    padding: 5px;
+    border: 1px solid transparent;
+}
+
+#productfeedbiz-options:hover {
+    padding: 5px;
+    background-color: #ffe1d3;
+    border: 1px solid silver;
+    cursor: pointer;
+}
+
+.feedbiz-details {
+    display: none;
+}
+
+.propagate {
+    color: navy;
+}
+
+.propagate:hover {
+    color: brown;
+    text-decoration: underline;
+}

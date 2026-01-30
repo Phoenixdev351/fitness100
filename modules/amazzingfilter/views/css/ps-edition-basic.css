@@ -1,0 +1,73 @@
+#af [class*=col-] {
+	padding-left: 5px;
+	padding-right: 5px;
+}
+#af .row {
+	margin-left: -5px;
+	margin-right: -5px;
+}
+.tab-title,
+.tab-title .btn-add,
+.af_template,
+.selected-options-inline,
+.template-tab-content,
+.af_template .template-tab-option,
+#af .filter-group a.filter-group-item,
+.template-actions .extra,
+.available-options,
+.options-footer,
+.selected-sorting-option,
+.dynamic-sorting-options,
+.merged-row,
+.af-tagify,
+.t-item,
+.custom-code-content,
+.cron-block,
+.bootstrap .close-cron,
+#dynamic-popup .form-footer {
+    border-radius: 0;
+}
+.template-actions .extra {
+	border-color: #1D1D1B;
+}
+#af .t-item a {
+	color: #FFF;
+}
+#af .filter-group .filter-group-item:not(.blocked):hover,
+#af .filter-group .filter-group-item.selected {
+	color: #1D1D1B;
+}
+#af .btn-group {
+	border: 1px solid #DDD;
+}
+#af .btn-group:hover {
+	border-color: #1D1D1B;
+}
+#af .btn-group .btn {
+	border: 0;
+	line-height: 21px;
+}
+#growls .growl.growl-notice {
+	background: rgba(114,194,121,.8);
+}
+#growls .growl.growl-error {
+	background: rgba(224,143,149,.8);
+}
+/*
+* Many styles in @prestashopcorp/edition-reskin@0.3.8/dist/back.min.css are harcdoded using !important
+* The only way to override them is to use another !important
+*/
+#af .list-group-item {
+	box-shadow: none!important;
+}
+#af .af-tagify .quickSearch:focus {
+	outline: none!important;
+}
+#af .indexation-buttons .btn-default {
+	border: 1px solid #1D1D1B!important;
+}
+#af .available-filters-footer .btn-blocked {
+	background: #CCC!important;
+	border: 1px solid #CCC!important;
+}
+/* since 3.3.0 */

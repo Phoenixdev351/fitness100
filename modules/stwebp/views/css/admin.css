@@ -1,0 +1,7 @@
+#st_generate_info{color:#ff0000;}
+.fenlei_status{margin-left: 6px;}
+#st_generate_message{max-height: 200px;overflow: auto;}
+.fenlei_current .st_loading{display: inline-block;}
+.st_loading{display: none;}
+#fenlei_info_nopictures{display: none;}
+.fenlei-products{display: none;}

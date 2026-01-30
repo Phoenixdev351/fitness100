@@ -1,0 +1,14 @@
+/* fix for uniform drop-down lists */
+@media (min-width: 480px) {
+	.af_filter.type-3 .af_filter_content .selector {
+		padding-left: 0;
+		border-left: 1px solid #DDD;
+	}
+	.af_filter.type-3 .af_filter_content .selector span {
+		padding-left: 10px;
+	}
+}
+.customer-filter-label.for-select a {
+	line-height: inherit;
+}
+/* since 3.2.5 */

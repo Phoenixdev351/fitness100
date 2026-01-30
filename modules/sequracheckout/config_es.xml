@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<module>
+    <name>sequracheckout</name>
+    <displayName><![CDATA[SeQura]]></displayName>
+    <version><![CDATA[2.0.2]]></version>
+    <description><![CDATA[SeQura Checkout]]></description>
+    <author><![CDATA[Sequra Engineering]]></author>
+    <tab><![CDATA[payments_gateways]]></tab>
+	<confirmUninstall><![CDATA[Are you sure you want to uninstard compatibility]]></confirmUninstall>
+    <is_configurable>1</is_configurable>
+    <need_instance>0</need_instance>
+	<limited_countries></limited_countries>
+</module>

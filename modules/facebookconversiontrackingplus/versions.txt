@@ -1,0 +1,210 @@
+Pixel Plus: All Facebook events targeting + Dynamic Ads
+
+Version History:
+
+1.0 First release. After the success of his younger Brother the Facebook Conversion Pixel we have released the Facebook Conversion Tracking Pixel Plus, the ultimate conversion tracking module for Facebook Ads
+1.0.1 Added some modifications
+1.1.0 Bug fixed and better code
+1.1.1 Improved add to cart code
+1.2.0 Added support for Custom Audiences
+1.3.0 Works with new Facebook's Pixel Code
+1.3.1 Added new functionalities (track addToWishlist, StartCheckout, Start Payment)
+1.3.2 Better global searches tracking
+1.4.0 Added Single Product Tracking
+1.5.0 Added Dynamic Product Ads Code
+1.5.1 Better Compatibility for Dynamic Products for PrestaShop1.5.X versions
+1.5.2 Small bugs fixed better value detection for dynamic products
+1.5.3 Added Product Catalogue ID for better compatibility with multilang feeds
+1.5.4 Bugs fixed
+1.5.5 Added Conversion Tests
+1.5.6 Added Prefix for IDs in catalogue
+1.5.7 Fixed keypage bugs on1.5.X versions
+1.5.8 Added support for OnePageCheckout module
+1.5.9 Bug fixed with prefix
+1.6.0 Added more options for customization
+1.6.0 Added prefix for combinations
+1.6.0 Added combination detect on default scheme using themes. Some themes may need customizations
+1.6.1 Better themes support for addToCart event
+1.6.2 Bug fixing, improved combinations
+1.6.3 Better Product detection, bugs fixed
+1.6.4 Code optimization
+1.6.4 Added new event ViewCategory
+1.6.4 Modified search event with more options to meet new Facebook standards
+1.6.5 Minor bug fixing
+1.6.6 Minor fixes in addtocart event
+1.6.7 Better conversion detection
+1.6.8 Comptabibility Improvements for Product Feeds
+1.6.9 Minor bug fixes
+1.7.0 Added multiple addToCart event calls from one page (ie. category or search view)
+1.7.1 Recoded addToCart procedure for non ajax settings.
+1.7.2 New advanced options, force pixels on header for non standard themes
+1.7.3 small bug fix on search events
+1.7.4 Better compatibility for PS1.5.X versions
+1.7.5 Improved order process for1.7
+1.7.6 Improved performance on orders tracking
+1.7.7 Issue Fixed on tracking with one page checkout ps module
+1.7.8 Added Polish Translation
+1.7.8 Added Dutch Translation
+1.7.8 Added German Translation
+1.7.8 Added Portuguese Translation
+1.7.9 Added Italian Translation
+1.7.9 Added Russian Translation
+1.8.0 Added custom add to cart button option
+1.8.0 Added ajax order confirmation procedure option
+1.8.1 Updated the Facebook code in the init to have a better compatibility
+1.8.1 Added compatibility for other Pixels added before the module
+1.8.2 Fixed an error with products and categories with an &amp; in the title
+1.8.2 Fixed a small bug with prefixes on initiateCheckout event
+1.8.3 Improved initiateCheckout now compatible with SuperCheckout module
+1.8.3 Expanded compatibility of the initiateCheckout, Registration and addPaymentInfo
+1.8.3 Improved CustomerRegistration Event
+1.8.4 Better Ajax conversion tracking
+1.8.4 Added content_category to addToCart and viewContent events
+1.8.4 Improved test pixels
+1.8.5 Small bug correction on addToCart event
+1.8.6 Improved InitiateCheckout themes compatibility
+1.8.6 Small Bug fixes on category breadcrumb
+1.8.7 Custom add to cart now available for dynamically added content
+1.8.7 Added Presta Trust
+1.8.8 Global improvement in viewCategory and search events
+1.8.8 Improved ajax tracking for conversions
+1.8.8 Implemented ajax tracking for new registrations
+1.8.8 Improved the Add To Cart detection
+1.8.9 Improvements for PS 1.7.4+
+1.8.9 Covered possible errors in mb_convert_case
+1.8.10 Improved and optimized AddToCart Procedure
+1.8.10 Added an advanced option to limit the conversions to order-confirmation pages
+1.8.11 Improved the category top sales products for category views
+1.8.11 Reviewed AddPaymentInfo and InitiateCheckout events
+1.8.12 Improved InitiateCheckout event, now it has the value of the products when the event triggers
+1.9.0 Compatible with PS 1.7.6
+1.9.0 Initiate Checkout improved behaviour
+1.9.0 Cache prevention on use Ajax feature
+1.9.0 Code optimization
+1.9.1 Improved purchase event with combinations
+1.9.1 Improved viewCategory event, now fires products with default combination if combination sending is active
+1.9.1 Improved viewCategory event to prevent errors for categories with just subcategories and no products
+1.9.1 Created the Force Basic conversions mode, to prevent heavy caching sites from having duplicates in conversions
+1.9.1 Improved Add to Cart event
+1.9.2 Added custom values to multiple events
+1.9.2 UI Improvement
+1.9.2 Updated behaviour for viewContent event to prevent issues with quotes
+1.9.2 New basic mode, to prevent issue with Cache engines and modules
+1.9.2 New duplication prevention, with this there are now 3 layers to prevent duplicates.
+1.9.2 Some events reviewed
+1.9.2 Added a FAQ to solve the most common questions
+2.0.0 Now Pixel Plus can create Facebook catalogues with the event data
+2.0.0 OG microdata completion
+2.0.0 Schema.org microdata completion
+2.0.0 Improves SEO
+2.0.0 Improved module's UI and UX
+2.0.1 Fixed a small display issue
+2.0.1 Updated translations
+2.0.2 Fixed an issue with apostrophes in viewContent event
+2.0.3 Add optional cookie control for sent purchase events
+2.0.3 Improved the combination detection in 1.7
+2.0.4 Fixed an issue with the registration of the guest orders
+2.0.4 Added a video to test the Pxiel Events
+2.0.4 Added a video guide for first install
+2.0.5 Added a title and description UPPERCASE fixing tool
+2.0.5 Improved conversion detection procedure
+2.0.5 Improved microdata detection and fill
+2.0.5 Combinations usage improvement through all events
+2.0.6 Improved the guest checkout process
+2.0.6 Improved microdata price generation for the OG type
+2.0.6 Improved multiple combination detection in the purchase event.
+2.0.7 Fixed a small issue on Microdata availability field detection
+2.0.7 Further improved the Microdata detection procedure
+2.0.7 Improved Price Display for ViewContent
+2.0.7 Reviewed the Add To Cart on product listings to improve the price detection
+2.0.7 Added a basic combination parameter id to the microdata
+2.0.7 Prevent more than one instance active through content_only calls
+2.0.8 Further improved the microdata check feature to prevent own microdata from being added in the review process
+2.0.8 Small improvement for products with apostrophes
+2.0.9 Combinations performance update
+2.0.9 The module adds more microdata tags
+2.1.0 Optional Microdata completion
+2.1.0 Improved product image generation
+2.1.5 Implemented the Conversion API for the Pixel, now events will be sent over the pixel and the Conversion API to improve results
+2.1.5 Multilangauge Catalogues
+2.1.5 Added Google Categories
+2.1.5 Disabled the microdata generation for disabled products
+2.1.6 Fixed an issue with the order validation process that prevented the Purchase event to be sent in some cases
+2.1.6 Improved multishop catalogue assign
+2.1.6 Fixed an issue with autocomplete on Google Categories
+2.2.0 Added GDPR Compatibilities Options
+2.2.0 Improved image generation
+2.2.1 New Controllers
+2.2.1 New advanced options for the Image generation in the Microdata
+2.2.2 Fixed a new Controller Issue
+2.2.2 Fixed retrieve of missing Microdata with Json encoding
+2.2.3 Now uses V10 for the Conversion API
+2.2.4 Added the event_source_url in some required events
+2.2.4 Reviewed the API events to adapt the new changes from the API V10.0
+2.2.4 Conversion API now covers product combinations too
+2.2.4 Fixed External ID
+2.2.4 Conversion API will not send data if the GDPR is configured and the user hasn't granted consent
+2.2.5 Reviewed combinations tracking in Conversion API
+2.2.5 Improved event parameters sent through the Conversion API
+2.2.6 Added multi pixel to Conversion API too, now it's possible to track more than one Pixel/Conversion API pair
+2.2.6 Fixed an add to cart issue with conversion API
+2.2.6 Conversion API Logger is added, now events can be loggable in the Advanced Parameters > Log
+2.2.6 Duplicate event in Add to cart event is fixed
+2.2.7 Conversion API now uses the V11 instead of the V10
+2.2.7 Reviewed several events to better work with the V11 requirements
+2.2.7 Fixed an issue with AddToCart sending an empty value
+2.2.7 Viewcontent event improved (Browser & Server)
+2.2.7 Added compatibility with OnePageCheckoutPS module
+2.2.7 Improved the AddPaymentInfo event (only browser)
+2.2.8 Meta price details fixed when discount is enabled
+2.2.8 Google category fpf invalid value when empty sql query fixed
+2.2.8 Https protocol issue when REQUEST_SCHEME is not supported by server is fixed
+2.2.8 Addtocart search js string error on few custom events
+2.2.8 Enable log on specific IP 
+2.2.8 Dual event InitateCheckout is disabled
+2.2.8 Custom checkout controller can be added for checkout events
+2.2.8 Fixed an small issue with combinations on ViewContent
+2.2.8 Data is revalidated and reevaluated before sending it to Facebook through the API events to prevent diagnostic messages from invalid: name, last name, email, phone...
+2.2.8 Added an IP restriction to the logging feature
+2.2.8 Added the option to display the generated payload in the log
+2.2.8 Improved JSON generation compatibility through other PS versions
+2.2.8 Microdata: Fixed an issue with the discounts detection when combinations where enabled
+2.2.8 Improved ViewContent event
+2.2.8 Improved data recollection through the API
+2.2.9 Added a section to describing each feature from the module
+2.2.9 Reviewed the Purchase event for abnormal usage (late validations, disabled API, basic mode switching issue)
+2.2.9 Space issue in the category page content id list is Fixed
+2.2.9 Issue with decimal values on addtocart is fixed for 1.7 version
+2.2.9 Guest order tracking issue when pixel not enabled is fixed.
+2.2.9 Prefix bug on category page when top sellers not available is fixed
+2.2.9 Added a section to describing each feature from the module
+2.2.9 Improved Purchase event
+2.2.9 Improved GDPR detection and blocking
+2.3.0 Option to exclude shipping price on the purchase event is enabled
+2.3.0 Excluding certain order statuses to purchase event is enabled
+2.3.0 Modules that might send purchase event after order confirmation page may not have event id, this issue is fixed to keep same event id. Creating deduplication issue is fixed.
+2.3.0 fbp and fbc parameters sent via conversion issue is updated
+2.3.1 Some theme core not triggering ajaxsetup on addtocart is fixed for 1.7 version
+2.3.1 Installation error with exclude order status parameter is fixed
+2.3.1 CustomizeProduct event can be added by specifying the class name of selector from Advanced option
+2.3.1 Conversion API now uses the V12.0 instead of the V11
+2.3.1 Improved InitiateCheckout detection for One Page Checkout modules
+2.3.1 Solved a small issue on 1.6 AddToCart event
+2.3.1 Fixed a small issue on ViewContent which generated duplicates in some cases
+2.3.1 Fixed a small issue that triggered the InitiateCheckout two times on some cases
+2.3.1 Improvements on AddToCart event for 1.7 versions
+2.3.1 Small Fixes
+2.3.1 Refactored PageView event for CAPI
+2.3.1 Enable disable the test code event globally. Automatic deletion of test code after 24 hrs.
+2.3.2 Improved external cookies consent check
+2.3.2 Recoded the second method for the Initiate Checkout option
+2.3.2 Multiple Initiate Checkouts on 1.7 Fixed
+2.3.2 Added deduplication keys for PageView event (new on API calls)
+2.3.2 Fixed a small issue on AddToWishlist event template
+2.3.2 Improved price detection for AddToCart event in some complex price structures.
+2.3.2 Added compatibility for "The Checkout" OPC module
+2.3.3 Improved the compatibility and detection the attribution through URL parameter
+2.3.3 Add Log for Excluded orders
+2.3.3 Improved the duplication prevention for the InitiateCheckout event
+2.3.3 Added Facebook cookies validation before sending them trough the API
+2.3.3 Fixed an small issue on Browser's Purchase event

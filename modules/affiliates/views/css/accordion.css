@@ -1,0 +1,29 @@
+/*
+ * Affiliates
+ *
+ * NOTICE OF LICENSE
+ *
+ * This source file is subject to the Open Software License (OSL 3.0)
+ * that is bundled with this package in the file LICENSE.txt.
+ * It is also available through the world-wide-web at this URL:
+ * http://opensource.org/licenses/osl-3.0.php
+ *
+ * @author    FMM Modules
+ * @copyright © Copyright 2021 - All right reserved
+ * @license   http://opensource.org/licenses/afl-3.0.php  Academic Free License (AFL 3.0)
+ * @category  FMM Modules
+ * @package   affiliates
+ */
+/*Accordion Css*/
+.ui-accordion .ui-accordion-header .ui-accordion-header-icon {left: 68em!important;}
+.ui-state-default, .ui-widget-content .ui-state-default, .ui-widget-header .ui-state-default{background: none!important;}
+.ui-accordion .ui-accordion-content{padding: 0!important;}
+.ui-helper-reset{border: none!important;}
+
+.status_badge{
+    border-radius: 0.25em;
+    color: rgb(255, 255, 255);
+    font-size: 13px;
+    font-weight: bold;
+    padding: 2px 20%
+}

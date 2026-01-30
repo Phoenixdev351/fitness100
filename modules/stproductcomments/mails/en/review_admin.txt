@@ -1,0 +1,9 @@
+Message from {shop_name}
+
+Hi,
+A new product review from {customer}:
+Grade: {grade}
+Content: {content}
+Product: {product}[{product_url}]
+
+{shop_name} [{shop_url}]

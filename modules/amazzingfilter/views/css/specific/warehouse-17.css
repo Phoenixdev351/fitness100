@@ -1,0 +1,120 @@
+#amazzing_filter .af-checkbox-label,
+#amazzing_filter .af-radio-label {
+	padding-left: 18px;
+	position: relative;
+}
+.af.checkbox,
+.af.radio {
+	display: none;
+}
+.active > .af-checkbox-label:before,
+.active > .af-radio-label:before {
+	font-family: FontAwesome;
+	content: '\f00c';
+	color: #555;
+	z-index: 1;
+	position: absolute;
+	left: 5px;
+	top: 4px;
+	font-size: 10px;
+	line-height: 10px;
+	animation: checkbox-bounce .3s cubic-bezier(.7,0,.3,1);
+ }
+.active > .af-radio-label:before {
+	content: '';
+	width: 8px;
+	height: 8px;
+	border-radius: 100%;
+	display: block;
+	background: #555;
+	top: 5px;
+	left: 6px;
+}
+.af-checkbox-label:after,
+.af-radio-label:after  {
+	content: '';
+	width: 16px;
+	height: 16px;
+	left: 2px;
+	top: 1px;
+	position: absolute;
+	border: 1px solid #DDD;
+	box-shadow: inset 0 1px 1px rgba(0,0,0,.09);
+	background: #FFF;
+}
+.af-radio-label:after {
+	border-radius: 100%;
+}
+.has-compact-filter #amazzing_filter .compact-toggle {
+	color: #FFF;
+}
+.horizontal-layout .special .af_filter_content label  {
+	margin: -1px 0 -2px 0;
+}
+.af.dynamic-loading {
+	margin-top: 2em;
+}
+/* customer filters */
+.af_filter .customer-filter-label {
+	padding-left: 6px;
+}
+/* facets_search_center */
+#facets_search_center .title_block {
+	display: none;
+}
+#facets_search_center .af_subtitle {
+	color: #333;
+	border-bottom: solid 1px #e3e3e3;
+	margin-bottom: 0.8em;
+	padding-bottom: 0.5em;
+}
+#facets_search_center .af .block_content {
+	margin: -15px -15px 0 -15px;
+}
+#facets_search_center .af-form {
+	display: -ms-flexbox;
+	display: flex;
+	-ms-flex-wrap: wrap;
+	flex-wrap: wrap;
+}
+#facets_search_center .af_filter,
+#facets_search_center .btn-holder {
+	min-height: 1px;
+	padding: 0 15px 1rem;
+	width: 25%;
+	min-width: 160px;
+	border: 0;
+}
+@media (max-width: 700px) {
+	#facets_search_center .af_filter,
+	#facets_search_center .btn-holder {
+		width: 33%;
+	}
+}
+@media (max-width: 530px) {
+	#facets_search_center .af_filter,
+	#facets_search_center .btn-holder {
+		width: 50%;
+	}
+}
+@media (max-width: 362px) {
+	#facets_search_center .af_filter,
+	#facets_search_center .btn-holder {
+		width: 100%;
+	}
+}
+#facets_search_center .af_filter label {
+	margin: 0;
+}
+#facets_search_center .af_filter:not(.color-group) li {
+	padding: 3px 0;
+}
+#facets_search_center .af-color-box.bright {
+	border: 1px solid #D0D5DB;
+	box-shadow: inset 0px 0px 4px 0px rgba(0,0,0,0.1);
+}
+#facets_search_center .af_filter:hover .slider_value,
+#facets_search_center .af-slider .slider_value.edit {
+	background: #FFF;
+}
+/* since 3.2.5 */

@@ -1,0 +1,18 @@
+.fancybox-lock .fancybox-overlay {
+    overflow: auto;
+    overflow-y: auto;
+}
+
+.apc_modal {
+    text-align: center;
+    display: initial;
+    margin: 0 auto;
+    max-width: 100%;
+    height: auto;
+    overflow: hidden;
+}
+
+.apc-effect-blur {
+    -webkit-filter: blur(15px); /* Safari 6.0 - 9.0 */
+    filter: blur(15px);
+}

@@ -1,0 +1,99 @@
+
+h2 {
+    font-size: 1.3em;
+    text-align: start;
+}
+
+.label-checkbox {
+    text-align: left;
+    float: none;
+    font-size: 1.2em;
+    color: navy;
+    opacity: 0.8;
+    padding: 5px;
+}
+
+#menuTab {
+    float: left;
+    margin: 0;
+    text-align: left;
+    background-color: #efefef;
+    padding: 10px;
+    border-top: 1px solid #CCC;
+    border-right: 1px solid #CCC;
+    border-left: 1px solid #CCC;
+}
+
+#menuTab li { 
+    text-align: left; 
+    float: left;
+    min-width: 150px;
+    height: 35px;
+    display: inline; 
+    padding: 0 10px 15px 15px;
+    margin: 5px;
+    background: #EFEFEF; 
+    font-weight: bold; 
+    cursor: pointer;
+}
+
+#menuTab li span {
+    position: relative;
+    top: 10px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    color: gray;
+}
+
+#menuTab li.menuTabButton.selected {
+    border-bottom: 3px solid #6495ED;
+    margin-bottom: 2px;
+}
+
+#menuTab li.menuTabButton:hover {
+    cursor: pointer;
+    background: #6495ED;
+    opacity: 0.7;
+}
+
+#ps16_tabs_separator {
+    clear:both;
+}
+
+#tabList div:first-child ul {
+    list-style-type: disc;
+    margin: 0 0 0 20px;
+    padding: 1em;
+}
+
+#tabList div:first-child hr {
+    width: 30%;
+}
+
+.row {
+    background: none;
+}
+
+div.col-lg-1 {
+    width: 8.33333%;
+    float: left;
+    text-align: center;
+}
+
+div.col-lg-11 {
+    width: 91.66667%;
+    float: left;
+    margin-bottom: 15px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+/* info class for PS 14x */
+body:not([style]) .info {
+    font-weight: 700;
+    margin: 0 0 10px 0;
+    line-height: 20px;
+
+}

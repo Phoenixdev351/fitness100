@@ -1,0 +1,12 @@
+/**
+ * This file is part of the securitypro package.
+ *
+ * @author Mathias Reker
+ * @copyright Mathias Reker
+ * @license Commercial Software License
+ *
+ * For the full copyright and license information, please view the LICENSE
+ * file that was distributed with this source code.
+ */
+
+#shop-img,.flip-container{display:none}#shop-img2{left:0;margin:0 auto;position:absolute;right:0;width:100px;top:120px;z-index:3 !important}#login-footer{display:none}

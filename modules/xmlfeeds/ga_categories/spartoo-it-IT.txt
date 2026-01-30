@@ -1,0 +1,246 @@
+#Spartoo.it 2020-06-17
+10008 - Ballerine
+10038 - Ciabatte
+10040 - Zoccoli
+11084 - ciabatte
+10924 - Derby & Richelieu
+10034 - Derby
+10039 - Richelieu
+10035 - Décolleté
+10036 - Espadrillas
+10044 - Infradito
+10018 - Scarpe da barca
+10037 - Mocassini
+10016 - Pantofole
+10017 - Scarpette neonato
+10041 - Sandali
+10525 - Scarpe a rotelle
+10015 - Scarpe da lavoro
+11424 - Scarpe antinfortunistiche
+11425 - Settore medico / alimentare
+10019 - Calcio
+10020 - Rugby
+10022 - Trekking
+10023 - Running / Trail
+10025 - Sci
+10026 - Multisport
+10027 - Sport Indoor
+10028 - Tennis
+10029 - Pallacanestro
+10031 - Equitazione
+10042 - Sandali sport
+10570 - Scarpe acquatiche
+10620 - Fitness / Training
+9845 - Ciclismo
+10024 - Scarpe da Skate
+10043 - Slip on
+10002 - Sneakers
+10009 - Sneakers basse
+10010 - Sneakers alte
+10013 - Stivaletti
+10014 - Stivaletti
+10609 - Tronchetti
+10003 - Stivali
+10011 - Stivali
+10012 - Stivali da pioggia
+10021 - Stivali da neve
+10033 - Stivali a metà coscia
+10099 - Vanity
+10639 - Trousse da toilette
+10090 - Bisacce
+10755 - Tracolle
+10602 - Borse cambio
+10095 - Borse da sport
+10614 - Borse termiche
+10498 - Borse
+10093 - Borse a mano
+10596 - Borse a spalla
+10096 - Borse da viaggio
+10611 - Cartelle
+10685 - Borse / Cartelle con rotelle
+10598 - Fodere cellulare
+10624 - Custodie
+10094 - Marsupi
+10678 - Pochette / Borselli
+10687 - Borse da sera
+10686 - Porta Documenti
+10600 - Porta PC
+10085 - Portafogli
+10608 - Porta monete
+10676 - Tote bag / Borsa shopping
+10567 - Trousse
+10098 - Valigie
+10650 - Valigie rigide
+10651 - Valigie morbide
+10657 - Pilot Case
+10091 - Zaini
+10047 - Camicie
+10770 - Camicie maniche corte
+10771 - Camicie maniche lunghe
+10050 - Cappotti
+10773 - Piumini
+10781 - Parka
+10786 - Trench
+11061 - Completi e cravatte
+11062 - Cravatte e accessori
+11063 - Giacche da completo
+11064 - Gilet da completo
+11065 - Pantaloni da completo
+11066 - Completi
+9989 - Completo
+10778 - Costume / Bermuda da spiaggia
+10999 - Perei
+9992 - Costume componibile
+9995 - Costume a due pezzi
+9996 - Costume intero
+10051 - Felpe in pile
+10054 - Felpe
+9999 - Giacche
+10045 - Giubbotti
+10057 - Giacche / Blazer
+10789 - Giacca in cuoio / simil cuoio
+10790 - Giacche in jeans
+10800 - giacca a vento
+10512 - Gonne
+9998 - Jeans
+10059 - Jeans dritti
+10774 - Jeans bootcut
+10775 - Jeans slim
+10994 - Jeans skynny
+10995 - Jeans 3/4 & 7/8
+10996 - Jeans boyfriend
+10776 - Pantaloni da tuta
+10788 - Giacche sportive
+10998 - Tuta
+10088 - Leggings
+10053 - Maglioni
+10695 - Gilet / Cardigan
+10063 - Shorts / Bermuda
+10004 - Pantaloni
+10061 - Pantaloni 5 tasche
+10772 - Chino
+10779 - Pinocchietto
+10797 - Pantaloni morbidi / Pantaloni alla zuava
+10798 - Pantalone Cargo
+9987 - Pigiami / camicie da notte
+11081 - Premaman
+11057 - Reggiseno sportivo
+10001 - T-shirt & Polo
+10048 - Top / T-shirt senza maniche
+10052 - Polo maniche corte
+10056 - T-shirt maniche corte
+10697 - T-shirts a maniche lunghe
+10782 - Polo maniche lunghe
+10065 - Tuniche
+10511 - Top / Blusa
+10792 - Tuta jumpsuit / Salopette
+10000 - Vestiti
+10062 - Abiti corti
+10784 - Abiti lunghi
+10523 - Gioelli
+10101 - Collane
+10103 - Gioielli piercing
+10104 - Orecchini
+10105 - Gemelli
+10106 - Bracciali
+10107 - Spille
+10108 - Ornamenti
+10561 - Ciondoli
+9848 - Occhiali da sole
+10495 - Orologi e gioielli
+10689 - Orologio Analogico
+10691 - Orologio Digitale
+10693 - Orologio Misto Analogico-Digitale
+10563 - Ganci porta-borse
+10007 - Accessori scarpe
+10952 - Linguette
+11180 - Lacci
+10100 - Accessori sport
+10087 - Calzini
+11473 - Calze sportive
+11422 - Collants e calze
+10112 - Prodotti di trattamento
+10113 - Lucidi
+10114 - Impermeabilizzanti
+10633 - Portachiavi
+10078 - Cinture
+10080 - Sciarpe
+10082 - Guanti
+10109 - Berretti
+10110 - Cappellini
+10111 - Cappelli
+438 - Corpo e Bagno > Scrub & peeling
+439 - Corpo e Bagno > Idratanti & nutrienti
+440 - Corpo e Bagno > Corpo e Bagno
+441 - Corpo e Bagno > Bio & naturale
+442 - Corpo e Bagno > Prodotti snellenti
+443 - Corpo e Bagno > Deodoranti
+444 - Corpo e Bagno > Trattamento mani e piedi
+445 - Corpo e Bagno > Protezione solare
+11560 - Cura dei capelli > Tinta
+475 - Cura dei capelli > Shampoo
+476 - Cura dei capelli > Maschere &Balsamo
+477 - Cura dei capelli > Gel & Modellante per capelli
+461 - Mani > Base & Topcoats
+462 - Mani > Smalti
+463 - Mani > Levasmalti
+464 - Mani > Trattamento unghie
+465 - Mani > Kit manicure
+478 - Prodotti di bellezza > Pennelli
+479 - Prodotti di bellezza > Accessori per il viso
+480 - Prodotti di bellezza > Accessori per gli occhi
+481 - Prodotti di bellezza > Accessori per capelli
+482 - Prodotti di bellezza > Accessori per manicure
+483 - Prodotti di bellezza > Accessori per il corpo
+466 - Profumi > Eau de toilette
+467 - Profumi > Eau de parfum
+468 - Profumi > Acqua di colonia
+469 - Profumi > Eau Fraîche
+470 - Profumi > Cofanetti di profumi
+471 - Rasatura > Trattamento rasatura e post-rasatura
+472 - Rasatura > Trattamenti post-rasatura
+473 - Rasatura > Rasoi & lame
+474 - Rasatura > Dopobarba
+430 - Trattamenti viso > Detergenti e struccanti
+431 - Trattamenti viso > Antietà & Antirughe
+432 - Trattamenti viso > Idratanti e nutrienti
+433 - Trattamenti viso > Bio & naturale
+434 - Trattamenti viso > Maschere & scrub
+435 - Trattamenti viso > Protezione solari
+436 - Trattamenti viso > Trattamento mirato
+437 - Trattamenti viso > Trucco BB & creme CC
+453 - Trucco labbra > Rossetti
+454 - Trucco labbra > Gloss
+455 - Trucco labbra > Matita per labbra
+456 - Trucco labbra > Trattamento e primer labbra
+447 - Trucco occhi > Ombretti & primer
+448 - Trucco occhi > Cofanetto ombretti
+449 - Trucco occhi > Mascara Ciglia-finte
+450 - Trucco occhi > Matia per occhi
+451 - Trucco occhi > Eyeliners
+452 - Trucco occhi > Trucco sopracciglia
+457 - Trucco viso > Fondotinta & primer
+458 - Trucco viso > Blush & cipria
+459 - Trucco viso > Contorno occhi & correttori
+460 - Trucco viso > Illuminanti
+11412 - Body
+11414 - Reggicalze
+11416 - Guêpière
+11418 - Corsetti e bustini
+11420 - Prodotti modellanti
+11475 - Boxer
+11472 - Maglietta intima
+11476 - Mutande uomo
+11394 -  Non imbottito
+11395 - Balconcino
+11396 - Imbottiti
+11397 - Minimizer
+11400 - Fascia/spalline amovibili
+11470 - Triangolo/Senza ferretto
+11471 - Brassiere
+11402 - Culotte e slip
+11404 - Culotte e boxer
+11406 - Perizoma
+11408 - Tanga
+11410 - Guaina modellante
+11477 - Slip

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<module>
+    <name>ets_superspeed</name>
+    <displayName><![CDATA[Super Speed]]></displayName>
+    <version><![CDATA[2.1.4]]></version>
+    <description><![CDATA[All-in-one speed optimization tool for Prestashop. Everything you need to maximize your website&rsquo;s speed, minimize page loading time, utilize server resource and save bandwidth]]></description>
+    <author><![CDATA[PrestaHero]]></author>
+    <tab><![CDATA[seo]]></tab>
+    <is_configurable>1</is_configurable>
+    <need_instance>0</need_instance>
+</module>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<module>
+    <name>shoparizepartner</name>
+    <displayName><![CDATA[Shoparize Partner]]></displayName>
+    <version><![CDATA[1.0.1]]></version>
+    <description><![CDATA[Shoparize&rsquo;s superior customer service, with a merchant portal to feed and campaign optimization tools, easily adapts to merchant&rsquo;s needs to drive incremental revenue, even while operating alongside another CSS.
+        ]]></description>
+    <author><![CDATA[Shoparize]]></author>
+    <tab><![CDATA[analytics_stats]]></tab>
+	<confirmUninstall><![CDATA[Are you sure you want to uninstall my module?]]></confirmUninstall>
+    <is_configurable>1</is_configurable>
+    <need_instance>1</need_instance>
+	<limited_countries></limited_countries>
+</module>

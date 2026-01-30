@@ -1,0 +1,6 @@
+.js-product-miniature .product-price-and-shipping,.js-product-miniature .regular-price-percent,#product .product-prices{
+    opacity:0;
+}
+.js-product-miniature .product-price-and-shipping.ss-show,.js-product-miniature .regular-price-percent.ss-show,#product .product-prices.ss-show{
+    opacity:1;
+}

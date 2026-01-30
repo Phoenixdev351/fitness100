@@ -1,0 +1,231 @@
+/*
+ * Affiliates
+ *
+ * NOTICE OF LICENSE
+ *
+ * This source file is subject to the Open Software License (OSL 3.0)
+ * that is bundled with this package in the file LICENSE.txt.
+ * It is also available through the world-wide-web at this URL:
+ * http://opensource.org/licenses/osl-3.0.php
+ *
+ * @author    FMM Modules
+ * @copyright © Copyright 2021 - All right reserved
+ * @license   http://opensource.org/licenses/afl-3.0.php  Academic Free License (AFL 3.0)
+ * @category  FMM Modules
+ * @package   affiliates
+ */
+#main ul {
+    margin-bottom: -5px;
+}
+ul.affiliation_tabs {
+    font-size: 0;
+    list-style-type: none;
+    padding: 0;
+}
+ul.affiliation_tabs li {
+    cursor: pointer;
+    display: inline-block;
+    margin-right: 2px;
+}
+ul.affiliation_tabs li a {
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    background-image: linear-gradient(#f7f7f7, #ededed);
+    background-size: 100% auto;
+    border-color: #cacaca #b7b7b7 #9a9a9a;
+    border-image: none;
+    border-style: solid;
+    border-width: 1px;
+    color: #555454;
+    display: inline-block;
+    font: 600 13px/20px "Open Sans",sans-serif;
+    overflow: hidden;
+    padding: 15px 5px;
+    position: relative;
+    text-decoration: none;
+    text-shadow: 0 1px white;
+    text-transform: uppercase;
+}
+ul.affiliation_tabs li a:visited {
+    color: #000;
+}
+ul.affiliation_tabs li a:hover {
+    background: #428BCA none repeat scroll 0 0;
+    border: 1px solid #b7b7b7;
+    color: #fff;
+    text-decoration: none;
+}
+ul.affiliation_tabs li.selected a, ul.affiliation_tabs li.selected a:hover {
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    background: #428bca none repeat scroll 0 0;
+    border-color: #3276b1;
+    border-image: none;
+    border-style: solid solid none;
+    border-width: 1px 1px 0;
+    color: #fff;
+    padding-top: 20px;
+    position: relative;
+    top: 5px;
+}
+ul.affiliation_tabs li.selected a:hover {
+    text-decoration: none;
+}
+div.tabcontents {
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    background: rgba(0, 0, 0, 0) url("../img/bck.jpg") repeat scroll 0 0;
+    border-bottom: 1px solid #e4e4e4;
+    border-image: none;
+    border-left: 1px solid #f1f1f1;
+    border-radius: 0 3px 3px;
+    border-right: 1px solid #f1f1f1;
+    border-top: 5px solid #428bca !important;
+    padding: 3%;
+}
+h3.affiliation_heading {
+    background: rgba(0, 0, 0, 0) url("../img/new_index.gif") repeat scroll 0 0;
+    border-bottom: 1px dashed #d4d4d4;
+    border-left: 5px solid #428bca;
+    border-top: 1px dashed #d4d4d4;
+    color: #555454;
+    margin-bottom: 20px;
+    padding: 17px 2%;
+    text-transform: uppercase;
+}
+#invite-friend, #pending-referrals, #stats {
+}
+.affiliateion_table {
+    background: #fff none repeat scroll 0 0;
+}
+table.affiliateion_table > thead > tr > th {
+    background: #e6e6e6 none repeat scroll 0 0;
+    border-bottom-width: 1px;
+    color: #333;
+    vertical-align: middle;
+}
+.status_badge {
+    border-radius: 0.25em;
+    color: rgb(255, 255, 255);
+    font-size: 13px;
+    font-weight: bold;
+    padding: 6px 20%;
+}
+.center {
+    text-align: center;
+}
+.first_row {
+    background: #f1f1f1 none repeat scroll 0 0 !important;
+}
+.green_belt {
+    background: #80c125 none repeat scroll 0 0 !important;
+    color: #fff;
+    font-weight: bold;
+}
+.low_balance {
+    background: #ff8080 none repeat scroll 0 0;
+    color: #fff;
+    font-weight: bold;
+}
+#referrals .std td input.text {
+    border: 1px solid #ccc;
+    height: 20px;
+}
+ul#affiliation_tabs_ps li a {
+    background: #ffda5f none repeat scroll 0 0 !important;
+    border-radius: 0 !important;
+    color: #000 !important;
+    font: bold 10px Verdana !important;
+    outline: medium none !important;
+    padding: 4px 1% !important;
+    text-decoration: none !important;
+}
+ul#affiliation_tabs_ps li.selected a, ul#affiliation_tabs_ps li.selected a:hover {
+    -moz-border-bottom-colors: none !important;
+    -moz-border-left-colors: none !important;
+    -moz-border-right-colors: none !important;
+    -moz-border-top-colors: none !important;
+    background: #3aa04b none repeat scroll 0 0 !important;
+    border-color: darkgreen darkgreen -moz-use-text-color !important;
+    border-image: none !important;
+    border-style: solid solid none !important;
+    border-width: 1px 1px 0 !important;
+    color: #fff !important;
+    position: relative !important;
+    top: 5px !important;
+}
+@media (min-width: 320px) and (max-width: 980px) {
+ul.affiliation_tabs li {
+    display: list-item !important;
+    margin-bottom: 5px !important;
+    width: 80%;
+}
+ul.affiliation_tabs li.selected {
+    margin-left: 10%;
+    width: 70%;
+}
+ul.affiliation_tabs li a {
+    background: #ffda5f none repeat scroll 0 0;
+    border: 1px solid #f6d02f;
+    color: #000;
+    font: bold 12px Verdana;
+    outline: medium none;
+    padding: 12px;
+    position: relative;
+    text-decoration: none;
+}
+ul.affiliation_tabs li.selected a, ul.affiliation_tabs li.selected a:hover {
+    top: 0;
+}
+ul.affiliation_tabs li.selected a, ul.affiliation_tabs li.selected a:hover {
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+ul.affiliation_tabs li a {
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    background-image: linear-gradient(#f7f7f7, #ededed);
+    background-size: 100% auto;
+    border-color: #cacaca #b7b7b7 #9a9a9a;
+    border-image: none;
+    border-style: solid;
+    border-width: 1px;
+    color: #555454;
+    display: list-item;
+    font: 600 12px/10px "Open Sans",sans-serif;
+    overflow: hidden;
+    padding: 10px 5%;
+    position: relative;
+    text-decoration: none;
+    text-shadow: 0 1px white;
+    text-transform: uppercase;
+}
+}
+
+
+/*----- New Features ------*/
+.affiliate_banner_element { clear: both; padding: 5px 0}
+.affiliate_banner_wrap {background-color: #fff; border: 1px solid #ccc; border-radius: 3px; padding: 3px;}
+.affiliate_banner_wrap img { max-width: 100%;}
+.affiliate_banner_element textarea { margin-top: 3px; min-height: 180px;}
+#fmm_aff_copier { font-size: 10px; color: #fff; padding: 3px 8px; background: #2592a9; font-weight: bold; cursor: pointer;
+ margin-left: 4px;}
+#fmm_aff_copier:hover { background: #1e788c;}
+.copied_color { background: red !important;}
+
+.fmm_code_blk { padding: 1%; background: #e6e6e6; clear: both; margin-bottom: 20px;width: 50%; text-align: center}
+.fmm_code_blk_sub { border: 3px dashed #ccc; padding: 3%; }
+.fmm_code_blk_sub strong { color: red;}
+.fmm_code_blk_code { display: block; clear: both; padding: 3px 0; font-size: 22px; color: #2592a9}
+.fmm_code_blk_redflag { display: block; clear: both; font-size: 11px; color: red; font-style: italic; padding-top: 8px}
+.aff_fee_structure i { color: red !important; font-size: 11px !important;}
+@media (min-width: 120px) and (max-width: 580px) {
+.fmm_code_blk { width: 95%;}
+}

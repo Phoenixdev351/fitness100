@@ -1,0 +1,93 @@
+@import url('https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+#subtab-AdminSuperSpeedStatistics i,
+#subtab-AdminSuperSpeedPageCachesAndMinfication i.icon-pagecache,
+#subtab-AdminSuperSpeedImage i,
+#subtab-AdminSuperSpeedMinization i,
+#subtab-AdminSuperSpeedDatabase i,
+#subtab-AdminSuperSpeedHelps i,
+#maintab-AdminSuperSpeed .icon-AdminSuperSpeed,
+.submenu .icon-AdminSuperSpeed,
+#subtab-AdminSuperSpeedSystemAnalytics i,
+#subtab-AdminSuperSpeedGzip i{
+    font-size: 0;
+    font-family: Fontawesome, sans-serif;
+    width: 16px;
+    height: 16px;
+}
+#subtab-AdminSuperSpeedStatistics i:before,
+#subtab-AdminSuperSpeedPageCachesAndMinfication i.icon-pagecache:before,
+#subtab-AdminSuperSpeedImage i:before,
+#subtab-AdminSuperSpeedSystemAnalytics i:before,
+#subtab-AdminSuperSpeedMinization i:before,
+#subtab-AdminSuperSpeedDatabase i:before,
+#subtab-AdminSuperSpeedHelps i:before,
+#maintab-AdminSuperSpeed .icon-AdminSuperSpeed:before,
+.submenu .icon-AdminSuperSpeed:before,
+#subtab-AdminSuperSpeedGzip i:before{
+    font-family: Fontawesome, sans-serif;
+    font-size: 16px;
+}
+#subtab-AdminSuperSpeedStatistics i:before{content: "\F0E4";}
+#subtab-AdminSuperSpeedDatabase i:before{content:"\f1c0"}
+#subtab-AdminSuperSpeedHelps i:before{content:"\f059";}
+#subtab-AdminSuperSpeedMinization i:before{content:"\f233"}
+#subtab-AdminSuperSpeedGzip i:before{content:"\f268"}
+#subtab-AdminSuperSpeedImage i:before{content:"\f03e"}
+#subtab-AdminSuperSpeedPageCachesAndMinfication i.icon-pagecache:before{content:"\f26c"}
+#subtab-AdminSuperSpeedSystemAnalytics i:before {
+    content: "\f002";
+}
+#maintab-AdminSuperSpeed .icon-AdminSuperSpeed:before,
+.icon-AdminSuperSpeed:before{
+    content: "\F0E4";
+}
+#growls-default .growl-title{
+    display:none;
+}
+
+
+
+
+@media (max-width:767px){
+    #tab-AdminSuperSpeed {
+        cursor: pointer;
+        position: relative;
+    }
+    #tab-AdminSuperSpeed:before {
+        content: "";
+        border-bottom: 2px solid #fff;
+        border-left: 2px solid #fff;
+        position: absolute;
+        right: 12px;
+        top: 17px;
+        width: 6px;
+        border-radius: 2px;
+        height: 6px;
+        transform: rotate(-45deg);
+        -webkit-transform: rotate(-45deg);
+    }
+    #tab-AdminSuperSpeed.show_active:before {
+        top: 21px;
+        transform: rotate(135deg);
+        -webkit-transform: rotate(135deg);
+    }
+    #subtab-AdminSuperSpeedStatistics,
+    #subtab-AdminSuperSpeedPageCachesAndMinfication,
+    #subtab-AdminSuperSpeedImage,
+    #subtab-AdminSuperSpeedDatabase,
+    #subtab-AdminSuperSpeedSystemAnalytics,
+    #subtab-AdminSuperSpeedHelps{
+        display:none;
+    }
+    #subtab-AdminSuperSpeedStatistics.show_active,
+    #subtab-AdminSuperSpeedPageCachesAndMinfication.show_active,
+    #subtab-AdminSuperSpeedImage.show_active,
+    #subtab-AdminSuperSpeedDatabase.show_active,
+    #subtab-AdminSuperSpeedSystemAnalytics.show_active,
+    #subtab-AdminSuperSpeedHelps.show_active{
+        display:block;
+    }
+}
+
+
+

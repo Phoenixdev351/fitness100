@@ -1,0 +1,6 @@
+v1.0.1: Nov-08
+* Fix bug import order.
+
+v1.0.0: Aug-23
+* Apply style PSR2.
+* Escape all queries.

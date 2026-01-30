@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<module>
+    <name>securitypro</name>
+    <displayName><![CDATA[Security Pro]]></displayName>
+    <version><![CDATA[8.8.10]]></version>
+    <description><![CDATA[Este m&oacute;dulo aumenta la seguridad general de su sitio web PrestaShop.	]]></description>
+    <author><![CDATA[Mathias Reker]]></author>
+    <tab><![CDATA[administration]]></tab>
+	<confirmUninstall><![CDATA[¿Estás seguro de que quieres desinstalar?	]]></confirmUninstall>
+    <is_configurable>1</is_configurable>
+    <need_instance>0</need_instance>
+	<limited_countries></limited_countries>
+</module>

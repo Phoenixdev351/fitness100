@@ -1,0 +1,33 @@
+{
+  "name": "smartsupp/live-chat",
+  "description": "Popular live chat for Prestashop stores. Start a personal conversation with your visitors and turn them into happy customers.",
+  "authors": [
+    {
+      "name": "Marek Gach",
+      "email": "gach@kurzor.net"
+    }
+  ],
+  "require": {
+    "php": ">=5.6.0",
+    "smartsupp/chat-code-generator": "^1.0",
+    "smartsupp/php-partner-client": "^1.0",
+    "prestashop/prestashop-accounts-installer": "^1.0.1",
+    "prestashop/module-lib-service-container": "v2.0",
+    "prestashop/module-lib-mbo-installer": "^3.0.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "Smartsupp\\LiveChat\\": "src/"
+    },
+    "classmap": [
+      "classes/"
+    ],
+    "exclude-from-classmap": []
+  },
+  "config": {
+    "preferred-install": "dist",
+    "prepend-autoloader": false
+  },
+  "type": "prestashop-module",
+  "license": "GPL-2.0-or-later"
+}

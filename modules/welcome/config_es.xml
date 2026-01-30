@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<module>
+    <name>welcome</name>
+    <displayName><![CDATA[Bienvenido]]></displayName>
+    <version><![CDATA[6.0.7]]></version>
+    <description><![CDATA[Vende tu primer producto m&aacute;s r&aacute;pido de lo que hubieras deseado, con nuestro intuitivo proceso de incorporaci&oacute;n. ]]></description>
+    <author><![CDATA[PrestaShop]]></author>
+    <tab><![CDATA[]]></tab>
+    <is_configurable>0</is_configurable>
+    <need_instance>1</need_instance>
+	<limited_countries></limited_countries>
+</module>

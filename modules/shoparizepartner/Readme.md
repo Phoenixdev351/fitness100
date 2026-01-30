@@ -1,0 +1,1 @@
+# Shoparize Partner

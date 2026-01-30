@@ -1,0 +1,16 @@
+.form-group{ margin-bottom:0px;}
+.form-horizontal .control-label{text-align: right;
+margin: 0px;
+padding-top: 0px;}
+.odd_label{background:#f9f9f9;}
+.form-horizontal .form-group{border-bottom: 1px solid #eee;}
+/*for bootstrap*/
+.bootstrap .form-group{ margin-bottom:0px;}
+.bootstrap .form-horizontal .control-label{text-align: right;
+margin: 0px;
+padding-top: 0px;}
+.bootstrap .odd_label{background:#f9f9f9;}
+.bootstrap .form-horizontal .form-group{border-bottom: 1px solid #eee;}
+.prestashop-switch input:checked + label {color: #FFF;}
+.prestashop-switch {width: 160px !important;}
+.prestashop-switch label {text-shadow: none;}

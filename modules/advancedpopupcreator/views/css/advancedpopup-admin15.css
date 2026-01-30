@@ -1,0 +1,32 @@
+#advancedpopup_form select[name^=mode] { width: 450px !important; }
+
+/* codemirror */
+.CodeMirror {
+    border: 1px solid #c7d6db;
+    background-color: #f5f8f9;
+}
+
+/* Min height for tinyMCE fields */
+div.mce-edit-area iframe {
+    min-height: 100px;
+}
+
+
+/* TIME */
+.time-column {
+    width: auto;
+    height: 20px;
+    display: block;
+}
+
+.time-column.valid-date {
+    background: url(../img/valid.png) no-repeat left center;
+}
+
+.time-column.expired-date {
+    background: url(../img/expired.png) no-repeat left center;
+}
+
+.time-column.future-date {
+    background: url(../img/future.png) no-repeat left center;
+}

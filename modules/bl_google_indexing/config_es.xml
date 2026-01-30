@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<module>
+    <name>bl_google_indexing</name>
+    <displayName><![CDATA[Google Indexing API]]></displayName>
+    <version><![CDATA[1.0.3]]></version>
+    <description><![CDATA[Indexing API allows directly notify Google when pages are updated or added]]></description>
+    <author><![CDATA[Bl Modules]]></author>
+    <tab><![CDATA[export]]></tab>
+	<confirmUninstall><![CDATA[Are you sure you want to delete the module?]]></confirmUninstall>
+    <is_configurable>1</is_configurable>
+    <need_instance>1</need_instance>
+	<limited_countries></limited_countries>
+</module>

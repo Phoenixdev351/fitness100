@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+        <module>
+            <name>sequrapayment</name>
+            <displayName><![CDATA[Sequra Payment Services]]></displayName>
+            <version><![CDATA[3.2.0]]></version>
+            <description><![CDATA[Configuraci&oacute;n general para los m&eacute;todos de pago SeQura]]></description>
+            <author><![CDATA[SeQura Engineering]]></author>
+            <tab><![CDATA[payments_gateways]]></tab>
+	<confirmUninstall>Are you sure you want to uninstall?</confirmUninstall>
+            <is_configurable>1</is_configurable>
+            <need_instance>1</need_instance>
+	<limited_countries></limited_countries>
+        </module>

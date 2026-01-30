@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<module>
+    <name>advancedpopupcreator</name>
+    <displayName><![CDATA[Creador avanzado de popups]]></displayName>
+    <version><![CDATA[1.1.18]]></version>
+    <description><![CDATA[Crea tantos popups como puedas imaginar: al cargar la p&aacute;gina, al salir de tu tienda o cuando se a&ntilde;ade un producto. Anuncia promos, novedades, etc. y mu&eacute;stralo en cualquier p&aacute;gina: en categor&iacute;as, productos, fabricantes... y segmentado por cliente.]]></description>
+    <author><![CDATA[idnovate]]></author>
+    <tab><![CDATA[front_office_features]]></tab>
+    <is_configurable>1</is_configurable>
+    <need_instance>1</need_instance>
+	<limited_countries></limited_countries>
+</module>

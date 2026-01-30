@@ -1,0 +1,371 @@
+.bootstrap input[type="number"] {
+    display: block;
+    width: 100%;
+    height: 31px;
+    padding: 6px 8px;
+    font-size: 12px;
+    line-height: 1.42857;
+    color: #555;
+    background-color: #F5F8F9;
+    background-image: none;
+    border: 1px solid #C7D6DB;
+    border-radius: 3px;
+    -webkit-transition: border-color ease-in-out 0.15s,box-shadow ease-in-out 0.15s;
+    -o-transition: border-color ease-in-out 0.15s,box-shadow ease-in-out 0.15s;
+    transition: border-color ease-in-out 0.15s,box-shadow ease-in-out 0.15s;
+}
+
+.qtip {
+
+    min-width: 50px !important;
+
+    font-size: 1.1em !important;
+    line-height: 1.3em !important;
+}
+
+#feedbiz-rakuten-product-tab h3 img {
+    margin: 5px;
+    width: 24px;
+    height: 24px;
+}
+
+#rakuten-title {
+    margin-left: 40px !important;
+    margin-top: 0 !important;
+}
+
+
+#feedbiz-rakuten-product-tab .col-left.tip span {
+    border-bottom: 1px dashed rgba(241, 208, 49, 0.90);
+    padding-bottom: 2px;
+    cursor: pointer;
+}
+
+#feedbiz-rakuten-product-tab .rakuten-item tr td {
+    padding: 5px;
+    cursor: pointer;
+}
+
+#feedbiz-rakuten-product-tab .rakuten-item tr {
+    height: 30px;
+}
+
+#feedbiz-rakuten-product-tab .rakuten-item tr td:first-child, #feedbiz-rakuten-product-tab .rakuten-item thead th:first-child {
+    background-color: transparent !important;
+    border: none;
+}
+
+#feedbiz-rakuten-product-tab .rakuten-item tr td:first-child > input {
+    position: relative;
+    left: 5px;
+    top: 2px;
+}
+
+#feedbiz-rakuten-product-tab .country-selector {
+    margin-left: 50px;
+    position: relative;
+    top: -10px;
+}
+
+#feedbiz-product-tab #feedbiz-rakuten-product-tab .country-selector .marketplace-flag {
+    width: 24px;
+    height: 24px;
+}
+
+#feedbiz-product-tab #feedbiz-rakuten-product-tab .country-selector .marketplace-lang-flag {
+    position:relative;
+    top:-8px;
+    left:-8px;
+    width: 16px;
+    height: 16px;
+}
+
+
+#feedbiz-rakuten-product-tab .country-selector tr td {
+    padding-right: 5px;
+    vertical-align: middle;
+}
+
+#feedbiz-amazon-product-tab .country-selector img {
+    width: 24px;
+    height: 24px;
+}
+
+#feedbiz-amazon-product-tab .country-selector tr td {
+    padding-right: 5px;
+    vertical-align: middle;
+}
+
+#feedbiz-rakuten-product-tab .country-selector tr td span.rakuten-tab-selector {
+    display: inline-block;
+    padding: 10px;
+    background-color: transparent;
+    border-bottom: 3px solid transparent;
+    cursor: pointer;
+    text-align: center;
+    min-width: 64px;
+}
+
+#feedbiz-rakuten-product-tab .country-selector tr td span.rakuten-tab-selector:hover {
+    background-color: #dcdcdc;
+}
+
+#feedbiz-rakuten-product-tab .country-selector tr td span.rakuten-tab-selector.active {
+    border-bottom: 3px solid #6495ED;
+}
+
+#feedbiz-rakuten-product-tab .rakuten-tab-bar {
+    border-bottom: 3px solid #dcdcdc;
+    margin-left: 40px;
+}
+
+#feedbiz-rakuten-product-tab .rakuten-tab-bar {
+    border-bottom: 3px solid #dcdcdc;
+    margin-left: 40px;
+}
+
+#feedbiz-rakuten-product-tab .rakuten-tab {
+    margin-left: 40px;
+
+}
+
+#feedbiz-rakuten-product-tab .rakuten-tab h4.marketplace-heading {
+    float: right;
+    margin-right: 5px;
+}
+
+#feedbiz-rakuten-product-tab .rakuten-tab h4.marketplace-heading img {
+    position: relative;
+    top: -1px;
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+}
+
+#feedbiz-rakuten-product-tab .rakuten-tab .section h4 {
+    border-bottom: solid 1px #a0d0eb;
+    display: inline-block;
+    margin-left: 15px;
+    letter-spacing: 3px;
+}
+
+#feedbiz-rakuten-product-tab td.col-left {
+    display: inline-block;
+    min-width: 140px;
+    text-align: right;
+    padding-right: 10px;
+    /*
+    white-space: nowrap;*/
+}
+
+#feedbiz-rakuten-product-tab .rakuten-item-title td.col-left {
+    margin: 5px;
+    color: navy;
+}
+
+#feedbiz-rakuten-product-tab tr.rakuten-details > td {
+    border-bottom: 10px solid transparent;
+}
+
+#feedbiz-rakuten-product-tab .rakuten-details td > input {
+    margin-bottom: 5px;
+}
+
+#feedbiz-rakuten-product-tab .rakuten-details input[type=checkbox] {
+    width: 20px;
+    height: 20px;
+}
+
+#feedbiz-rakuten-product-tab .rakuten-details input[type=radio] + span.amz-action-label {
+    position: relative;
+    top: -1px;
+    margin-left: 2px;
+}
+
+#feedbiz-rakuten-product-tab .rakuten-details .amz-action-container {
+    cursor: pointer;
+    border: 1px solid transparent;
+}
+
+#feedbiz-rakuten-product-tab .rakuten-details .amz-action-container:hover {
+    border: 1px solid grey;
+}
+
+#feedbiz-rakuten-product-tab .rakuten-details .amz-action-container input[type=radio] {
+    width: 20px;
+    height: 20px;
+    position: relative;
+    top: -3px;
+    left: -3px;
+}
+
+#feedbiz-rakuten-product-tab .rakuten-details input[type=checkbox] + span, #feedbiz-rakuten-product-tab .rakuten-details input[type=radio] {
+    width: 20px;
+    height: 20px;
+    position: relative;
+    top: 5px;
+}
+
+#feedbiz-rakuten-product-tab .rakuten-details input[type=checkbox] + span {
+    position: relative;
+    top: -5px;
+    font-size: 1.2em;
+}
+
+#feedbiz-rakuten-product-tab .rakuten-details input[type=radio] + span {
+    position: relative;
+    margin-left: 10px;
+    margin-right: 15px;
+    font-size: 1.2em;
+}
+
+#rakuten-action-loader {
+    float: left;
+    margin-left: 5px;
+    margin-top: 10px;
+}
+
+.bootstrap #feedbiz-rakuten-product-tab .rakuten-details input /* PS 1.6 */
+{
+    display: inline-block;
+}
+
+span.amz-action * {
+    vertical-align: middle;
+}
+
+.amz-action {
+    display: inline-block;
+    min-width: 140px;
+    margin: 5px;
+    padding: 5px;
+}
+
+.amz-action input {
+    position: relative;
+    top: -2px;
+}
+
+.amz-action-label {
+    display: inline-block;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.amz-action-container {
+    margin: 5px;
+    padding: 5px;
+    background-color: #EEECEC;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+
+}
+
+.amz-action-img {
+    position: relative;
+    top: -10px;
+}
+
+.bootstrap .amz-action-img {
+    position: relative;
+    top: -1px;
+}
+
+.bootstrap .bulletpoint-action img {
+    height: 20px;
+}
+
+#main .bulletpoint-action img {
+    position: relative;
+    top: -3px;
+    left: -1px;
+    border: 1px solid gainsboro;
+    padding: 1px 0 1px 0;
+    cursor: pointer;
+    background-color: lavender;
+    border-radius: 2px;
+    -webkit-opacity: 0.7;
+    -moz-opacity: 0.7;
+    opacity: 0.7;
+}
+
+#main .bulletpoint-action img:hover {
+    border: 1px solid lavender;
+    background-color: lightgray;
+}
+
+.bootstrap .bulletpoint-action {
+    padding: 5px;
+}
+
+#feedbiz-rakuten-product-tab.ps15 .rakuten-tab .section h4 {
+    font-size: 1.2em;
+}
+
+#feedbiz-rakuten-product-tab .repricing img {
+    margin-right: 15px;
+    position: relative;
+    top: -2px;
+    left: -2px;
+}
+
+/* Patches PS 1.5 */
+#feedbiz-rakuten-product-tab.ps15 #rakuten-table-combinations tr:hover, #feedbiz-rakuten-product-tab.ps15 #rakuten-table-product tr:hover {
+    background-color: #fff1b5;
+}
+
+#feedbiz-rakuten-product-tab.ps15 #rakuten-table-combinations tr.highlighted, #feedbiz-rakuten-product-tab.ps15 #rakuten-table-product tr.highlighted {
+    background-color: rgb(196, 234, 196);
+}
+
+#feedbiz-rakuten-product-tab.ps15 #rakuten-title {
+    margin-top: 15px !important;
+}
+
+#feedbiz-rakuten-product-tab.ps15 .marketplace-heading {
+    font-size: 1.1em;
+    margin-top: 10px;
+}
+
+#feedbiz-rakuten-product-tab.ps15 .rakuten-details input[type=checkbox] + span {
+    top: 1px;
+}
+
+#feedbiz-rakuten-product-tab.ps15 .rakuten-details input[type=radio] + span {
+    top: 5px;
+}
+
+#feedbiz-rakuten-product-tab.ps15 .rakuten-details input[type=radio] + span.amz-action-label {
+    position: relative;
+    top: 0;
+}
+
+#feedbiz-rakuten-product-tab.ps15 .amz-action-img {
+    top: -2px;
+}
+
+#feedbiz-rakuten-product-tab.ps15 .amz-action-container {
+    background-color: #e3e4f3;
+}
+
+#feedbiz-rakuten-product-tab.ps15 .rakuten-details .amz-action-container input[type=radio] {
+    position: relative;
+    top: 0;
+    left: -4px;
+}
+
+#feedbiz-rakuten-product-tab.ps15 .fb-link {
+    color: navy;
+}
+
+#feedbiz-rakuten-product-tab.ps15 .fb-link:hover {
+    text-decoration: underline;
+}
+
+#feedbiz-rakuten-product-tab.ps15 .clearfix {
+    display: none;
+}
+
+#rakuten-title {
+    width: 90%;
+}

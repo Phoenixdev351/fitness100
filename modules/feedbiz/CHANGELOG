@@ -1,0 +1,744 @@
+feedbiz v1.2.93 
+Fixed : import order discount , update product date after import order. 
+Debug : Category selected on multiple shop.
+
+feedbiz v1.2.92
+Fixed : SSL certificate
+Added : Amazon.se
+Fixed : import order bugs , export product and offers. 
+
+feedbiz v1.2.91
+Added : Check Business Order
+Fixed : SSL certificate
+
+feedbiz v1.2.90
+Added : Check Order Item Tax Rate
+
+feedbiz v1.2.89
+Added : FBA order VAT
+
+feedbiz v1.2.88
+Added : store address - getDefaultShopAddress (settings.xml)
+Added : vat_number on order import 
+
+feedbiz v1.2.87
+Added : send the option - import unknown products as a new product, to Feed.biz (settings.xml)
+
+feedbiz v1.2.86
+Fixed : duplicate import order items
+
+feedbiz v1.2.85
+Removed : the quantity zero when the stock less than zero, offers xml changed to real quantity
+
+feedbiz v1.2.84
+Fixed : get cart items by id_product (payment class) remove cache
+
+feedbiz v1.2.83
+Added : Create Dummy Product on order_import
+Added : Switch On/Off DEV_MODE Button
+Fixed : get cart items by id_product (payment class)
+
+feedbiz v1.2.82
+Fixed : Add order to table feedbiz_orders (FeedBiz_Order::addOrderExt)
+Fixed : Field multichannel on table feedbiz_orders to default null 
+
+feedbiz v1.2.81
+Fixed : Remove a checking of expert for Save the Limit per Page Value
+
+feedbiz v1.2.80
+Candidate realease 1.2.80
+Fixed : import order - an error in SQL syntax - checkByMpId 
+Fixed : Save limit per Page
+
+feedbiz v1.2.79
+Fixed : Order Existing Validation (FeedBiz_Order::addOrderExt)
+
+feedbiz v1.2.78
+Fixed : Remove Languages from Offers Option, Feedbiz Tab
+
+feedbiz v1.2.77
+Fixed : Order Import - solved problem on multiples products
+Fixed : avoid confusing
+
+feedbiz v1.2.76
+Fixed : Order Import checks - cart result
+Added : API customer survey
+
+feedbiz v1.2.75
+Fixed : tooltip
+Added : Order Import checks
+Fixed : A non-numeric value encountered in getDefaultStoreTaxCalculator
+
+feedbiz v1.2.74
+Added : cdsicount module contain 2 mode 1.simple mode 2.expert mode
+Fixed : change theme on the configuration page
+Fixed : Fatal error: Uncaught Duplicate entry for key 'mp_order_id' (addOrderExt)
+
+Updated : Get all carriers in product feed
+
+feedbiz v1.2.73
+Added : TRIGGER product_date_upd and product_shop_date_upd
+Fixed : "context" conflict with Prestashop 1.7, rename context to feedbiz_context and getComplexId to getComplexProductId
+
+feedbiz v1.2.72
+Added : Validation message file order_import.php
+Fixed : Module configure none display on Product sheet [support - Prestashop 1.7]
+Added : Cdiscount Carrier Shipping Registered Override & Shipping Tracked Override.
+
+feedbiz v1.2.71
+Fixed : Selected all categories by default (feedbiz.php)
+
+feedbiz v1.2.70
+Added : Amazon Business Group
+Fixed : get All Carriers on Standard Settings
+
+feedbiz v1.2.69
+Added : Environment - check file writable permission
+Fixed : ALTER TABLE- removed 'IGNORE'
+Fixed : Error message for product not available for order
+
+feedbiz v1.2.68
+Added : Cdiscount - Force Public and Force Gender
+
+feedbiz v1.2.67
+Enabled : Image Type on Configuration
+
+feedbiz v1.2.66
+Added : Environment - check file permission
+
+feedbiz v1.2.65
+Added : Environment - check override
+
+feedbiz v1.2.64
+Added : Order Status - Delivered 
+
+feedbiz v1.2.63
+Fixed : Filters Manufacturer and Supplier 
+
+feedbiz v1.2.62
+- Fixed : Tools::copy for Prestashop version > 1.5 
+- Fixed : Check isset wholesale_price
+- Fixed : Filter products by category default
+- Fixed : Id rules group
+
+feedbiz v1.2.61
+- Fixed : Multi-Channel, check empty Features.
+
+feedbiz v1.2.60
+- Fixed : Amazon seller central order url - MX.
+- Modify : Fix id tax group in export product
+
+feedbiz v1.2.59
+- Modify : Modify column mp_reference type varchar from 32 to 64.
+
+feedbiz v1.2.58
+- Modify : column mp_reference type varchar from 32 to 64.
+
+feedbiz v1.2.57
+- Changed : bundle-ca-feedbiz.pem to feedbiz.pem
+
+feedbiz v1.2.56
+- Fixed : SSL certificates problem
+
+feedbiz v1.2.55
+-Removed : checking inactive carrier
+- Added : Offers Options for Fnac
+
+feedbiz v1.2.54
+- Added : Check Order Existing by Seller Order ID (import order)
+
+feedbiz v1.2.53
+- Fixed : product attribute weight
+
+feedbiz v1.2.52
+- Fixed : update order status when order already exist to avoid the replace incorrect data
+
+feedbiz v1.2.51
+- Empty : marketplace.cfg
+- Removed : config.xml
+- Changed : version name (remove v)
+
+feedbiz v1.2.50
+- Fixed : lookupOrCreateAddress - check country_iso string
+
+feedbiz v1.2.49
+- Added : Support widget
+- Added : Get Carrier Fees on Products XML
+- Added : Get Zones on Settings XML
+
+feedbiz v1.2.48
+- Fixed : Return error after ob_start
+- Fixed : Duplicate xml on Tools Class
+
+feedbiz v1.2.47
+- Added : Cdiscount C logistique - (settings, multichannel, feedbiz, order_data, order_import)
+- Fixed : check field exist - mp_order_id table marketplace_orders
+
+feedbiz v1.2.46
+- Fixed : fix bug update Product Options
+- Fixed : add pSQL for product_name
+- Fixed : stock movement update Product Date
+- Fixed : update FEEDBIZ_CUSTOMER_ID on postProcess
+- Removed : hook actionValidateOrder from Feedbiz Payment Class
+- Addded : hook actionValidateOrder to orders_import.php
+
+feedbiz v1.1.2.45
+- Fixed : Update order state id - manageOrderStates()
+- Fixed : Escape field Product name on order detail query (feedbiz.payment.class.php)
+- Fixed : remaining quantity in stock after the order (feedbiz.payment.class.php)
+
+feedbiz v1.2.44
+- Fixed : Check order state id (order_import.php)
+- Fixed : root category checkbox removed
+- Fixed : REMOTE_ADDR are store in HTTP_X_FORWARDED_FOR and HTTP_CF_CONNECTING_IP
+
+feedbiz v1.2.39
+- Added : Feedbiz frame for multichannel order
+- Fixed : Categories selection, now pre-check and saved on module installation instead of just pre-check (no configuration saving needed to send all categories)
+- Fixed : Error concerning the default carrier in module configuration on fresh installation
+- Core : Pre-selected and save value in Db for main configuration values so merchant does not need to do anything by default
+
+feedbiz v1.2.38
+- Fixed : Image size, the biggest one is always used
+- Added : The channel ("addons", "cdiscount", "feedbiz") in the connector URL
+
+feedbiz v1.2.37
+- Fixed : order import (condition with Colissimo carriers)
+- Fixed : order cancelation (add order canceled reason)
+
+feedbiz v1.2.36
+- Added : Update install and table creation
+
+feedbiz v1.2.35
+- Added : Amazon Shipping Templates [settings.php, feedbiz.php, feedbiz.product_tab.amazon.class.php, tpl, js]
+- Added : Default Carrier Standard [feedbiz.php, feedbiz/tpl]
+- Fixed : Order Channel Name - images url [feedbiz.admin_order.class.php]
+
+feedbiz v1.2.34
+- Fixed : Replaced is_cdiscount by generic variable branded_module
+- Fixed : Product sheet display on PS 1.7
+- Fixed : Price override on product sheet
+- Fixed : Table creation on installation
+- Fixed : Overrides retrieval on PS 1.7
+- Updated : Translations FR
+- Updated : FEEDBIZ_DOMAIN on FeedbizConnector - get fbdomain from WsFeedBiz
+- Deleted : Unsued pictures
+- Deleted : PS XML config files
+- Fixed : import order - check order in the table marketplace_orders
+- Fixed : import order - check order in the other marketplace (check by FEEDBIZ_MARKETPLACE_TAB)
+- Added : Carrier deleted state to XML (settings.php)
+
+feedbiz v1.2.33
+- Added : Order - Shipping Address Mobile Phone
+- Added : Carrier url [settings.php]
+- Added : Cdiscount by Feed.biz
+- Fixed : validate fbdomain [connector.php]
+
+feedbiz v1.2.32
+- Added : file functions/canceled.php
+- Added : Feed.biz webservice api for canceled order - classes/feedbiz.webservice.class.php
+- Added : function showColumnExists in feedbiz.tools.class.php
+- Added : field mp_status, cancelled_reason to datable table feed_orders
+- Added : function hookPostUpdateOrderStatus in feedbiz.php
+- Added : css url in feedbiz.php
+- Edited: function addOrderExt, getMpFields, changeOrderStatus in feedbiz.order.class.php
+- Edited: Admin Order templates : feedbiz.admin_order.class.php, feedbiz.order.class.php, admin_order.tpl, orders_sheet.js, orders_sheet.css
+- Fixed : Update mp_status to feed_orders table - orders_import.php
+
+feedbiz v1.2.31(b)
+- Fixed : Stockmovement FBA.
+
+feedbiz v1.2.31(a)
+- Fixed : Order import - Gift Value.
+
+feedbiz v1.2.31
+- Added : Order import - Gift Value, Earliest Shipping Date, Earliest Shipping Date.
+
+feedbiz v1.2.30
+- Added : Order state - "Urgent Orders" for isPrime orders [feedbiz.php, feedbiz.tpl, orders_import.php]
+
+feedbiz v1.2.29
+- Fixed : remove on_sale for specific price [functions/products.php, functions/offers.php]
+- Fixed : Fatal error: Class 'Feedbiz' not found - feedbiz.php
+- Added : Product Combination Attribute Url  - product.php
+- Added : shipping_type to feedbiz_orders table. [file:feedbiz.php]
+- Added : shipping_type to orders deatil page
+
+feedbiz v1.2.28
+-Fixed : Add Customer Group ID - functions/orders_import.php, functions/offers.php, feedbiz.php, feedbiz.tpl
+
+feedbiz v1.2.27
+-Fixed : orders_import.php; Case Advanced Stock Management: update date_upd if user enabled Advanced Stock Management.
+
+feedbiz v1.2.26
+-Fixed : connector.php; Added extra server variables that are available to cloud flare.
+-Fixed : feedbiz.tools.class.php; Added extra server variables that are available to cloud flare.
+
+feedbiz v1.2.25a
+-Fixed : offers.php; use getCategoryInformations by Feedbiz_categories to get Offer Export.
+
+feedbiz v1.2.25
+- Fixed: connector.php; added Invoice, Messaging url.
+- Added: functions/invoice.php
+- Added: functions/messaging.php
+- Edited: feedbiz.webservice.class.php; added function getCustomerMessages
+- Edited: feedbiz.php; added function hookActionEmailAddAfterContent
+- Edited: settings.php; edited function settingsFetch to add messaging configuration
+- Edited: feedbiz.product_tab.amazon.class.php added function getIdByAsin
+
+feedbiz v1.2.24b
+- Fixed: Display offers options on combination.
+
+feedbiz v1.2.24
+- Fixed: Get categories include inactive category.
+
+feedbiz v1.2.23
+- Fixed: PriceOverride cannot save.
+
+feedbiz v1.2.22
+- Fixed: Import Orders by Marketplace Order Reference
+- Fixed: VAT issue
+
+feedbiz v1.2.21
+- Fixed: Shipping date
+
+feedbiz v1.2.20
+- security check more debug added
+
+feedbiz v1.2.19
+- commit version update
+
+feedbiz v1.2.19
+- Fixed: tax issue
+
+feedbiz v1.2.18
+- Fixed: removed strtolower on payment method
+
+feedbiz v1.2.17
+- Fixed: multichannel field issue merged
+
+feedbiz v1.2.16
+- Fixed: issue with certificates when the directory is not writeable
+
+feedbiz v1.2.15
+- FBA value in offers option wasn't displayed
+
+feedbiz v1.2.14
+- Wrong token in information tab issue fixed
+
+feedbiz v1.2.13
+- Fixed: Product_tab ; product option didn't work because of a bug in the javascript (missing parameter)
+
+feedbiz v1.2.09
+- Added: Multichannel Order State. - admin_order.tpl ; feedbiz.order.class.php ; feedbiz.admin_order.class.php
+- Fixed: products.php - added require 'feedbiz.webservice.class.php'
+- Fixed: SQL error function 'getUpdateProductsSQLCondition' on 'feedbiz.product.class.php'
+- Fixed: order_import.php - added 'multichannel' field to feedbiz_orders table.
+- Added: updateProductOptions to FeedBizProductTabEbay
+
+feedbiz v1.2.02
+- Fixed: category selected parent associated. - feedbiz.php ; feedbiz.js ; feedbiz.tpl ;
+
+feedbiz v1.1.30
+- Added New File: update_options.php - to update options from Feed.biz ;
+- Added: connector.php - added Urls UpdateOptions ;
+- Added: function updateProductOptions to feedbiz.product_tab.amazon.class.php ;
+- Added: function getUpdateOffersOptions to feedbiz.webservice.class.php ;
+
+feedbiz v1.1.29
+- Added: added 'CreateDate' to \functions\products.php ;
+
+feedbiz v1.1.28
+- clean module 
+
+feedbiz v1.1.27
+- Added New File: feedbiz.carrier.class.php - to create carrier order from Feed.biz
+- Added New File: orders_status.php - to update order status from Feed.biz
+- Added: connector.php - added Urls OrderStatus ;
+
+feedbiz v1.1.26
+- Added: feedbiz.multichannel.class.php - check feed.biz order
+- Added: feedbiz.webservice.class.php - function sendOrder()
+
+feedbiz v1.1.23
+- Fixed: token bug fix
+
+feedbiz v1.1.22
+- Fixed: orders_import.php - changed Orders XML, orders from FeedBizWebService
+- Fixed: feedbiz_tool.php - changed Orders XML, orders from FeedBizWebService
+
+feedbiz v1.1.21
+- Added: multichannel support
+
+feedbiz v1.1.20
+- Added : products.php - added ProductLink;
+feedbiz v1.1.19
+- Fixed : orders_import.php - split buyer and shipping
+- Fixed : offers.php - if empty option data in each marketplace region set empty XML to truncate imported offers options in feed.biz (#784,#818,#851)
+
+feedbiz v1.1.18
+- Added : settings.php - retrieve actives marketplaces informations
+
+feedbiz v1.1.17
+- Fixed : error message display in orders_cancel.php, orders_import.php, shipped_orders.php, stockmovement.php
+- clean feedbiz.webservice.class.php
+
+feedbiz v1.1.16
+- Fixed: minus sign removed by filter function in address class
+
+feedbiz v1.1.15
+- Added: state_region in address.class.php
+
+feedbiz v1.1.14
+- Updated: logo
+
+feedbiz v1.1.13
+- Added: eBay Offers Options
+
+feedbiz v1.1.12
+- Add offers Option to offers.php
+- Remove Offers Options from products.php
+- Fixed categories selected
+
+feedbiz20150909
+-SETTING : add is_default to currency in settings.php file.
+
+feedbiz20150821
+-Fixed lost include file classes/feedbiz.tools.class.php;
+-add Employee ID in order_import.
+-add Feedbiz customer ID in order_import.
+-change from currency default is currency order.
+
+feedbiz2015072901
+-PRODUCT : add wholesale in tag Price and tag PriceOverride.
+-OFFER : add WholeSalePrice in tag Offer and add AdditionalWholeSalePricein tag Items.
+
+feedbiz2015062401
+-PRODUCT : split SALE to combination level.
+-OFFERS : split Discount to combination level.
+-OFFERS : check date_upd and ps_specific_price.from to cover SALE (pre settings before start real sale).
+-ORDER IMPORT : determine $order->ForceImport but NOT use it to override $this->ForceImport directly.
+
+feedbiz2015061201
+-ORDER BOX : add link to Amazon order.
+-STOCKMOVEMENT: update log OLD QYT field in STOCK MANAGEMENT to keep real qty instead of fixed 100 qty.
+
+feedbiz2015060501
+-OFFERS : update function getUpdateProductsSQLCondition in feedbiz.product.class.php to product_shop in query.
+
+feedbiz2015060401
+-CONFIGURATION : remove default carrier from configuration.
+-PRODUCT : if no carrier setting at a product, we send all carrier underneath that product.
+
+feedbiz2015060301
+-CONFIGURATION : need in-active category on configuration to make sure all active/in-active product will be included in the feed.
+-ORDER IMPORT: keep PS_FB_ORDER  before actionValidateOrder HOOK in feedbiz.payment.class.php
+
+feedbiz2015060201
+-ORDER IMPORT : correct stock qty validation.
+
+feedbiz2015052601
+-OFFERS : correct tag name at combination level, e.g. ProductEAN to AttributeEAN.
+-STOCKMOVEMENT : also check at product to make sure user enable ADVANCE STOCK MANAGEMENT before cut stock.
+-ORDER IMPORT : check ADVANCED STOCK MANAGEMENT option on PREFERENCE and PRODUCT level before update product_quantity_in_stock field.
+
+feedbiz2015052201
+- SHIPPED_ORDER : use mp_reference from FeedBizOrder table instead of PS_ORDER because field's length issue.
+- ORDER TABLE : remove mp_order_id and mp_status from PS_ORDERS
+
+feedbiz2015051401
+- PRODUCTS/OFFERS : determine Warehouse in case of Advance_Stock
+- STOCK MOVEMENT : ignore movement in case of Advance_Stock
+- ORDER IMPORT : call StockAvailable::synchronize to update stock in case of Advance_Stock 
+- OFFERS : fix wrong currency. CurrencyID was always "1".
+
+feedbiz2015051201
+- ORDER IMPORT : put SALE CHANNEL and PAYMENT METHOD in PAYMENT METHOD field.
+- SETTINGS : add DEFAULT attribute at CARRIER node.
+
+feedbiz2015043001
+- ORDER IMPORT : check min cart setting.
+- ORDER IMPORT : make sure do rollback after did restock.
+- ORDER IMPORT : validate id_product & id_combination before validate stock.
+- ORDER IMPORT : allow to import buyer having blank email.
+- OFFER : generate condition key as same as doing in PRODUCT.
+- ORDER BOX : improve UI. Using MPOrderNUmber instead of MPOrderef
+
+feedbiz2015042001
+- CONFIGURATION : default select all categories for first times access.
+- CONFIGURATION : fixed copy to clipboard button js.
+- CONNECTOR: add resoveIP function. So no need IP in configuration.
+- PRODUCT: get combination's qty by Product::getRealQuantity instead of qty from $details->getAttributeCombinations.
+- OFFERS: allow pull all products *** in case that offers are loaded to FB but not be uploaded to MP for a long time.
+- ORDER IMPORT : add error message to PS if error occured.
+- LOGO : resize logo image
+
+feedbiz2015041601
+- ORDER CANCEL : add order cancel web service.
+- OFFERS : add ACTIVE tag under product and combination.
+
+feedbiz2015040901
+- FEEDBIZ.ORDER.CLASS : add getOrdersByState method(likes getOrdersStatesByIdLang but not determine LANG and MODULE, also includes order with blank MPOrderID).
+- SHIPPED_ORDER : using getOrdersByState instead of getOrdersStatesByIdLang.
+- CONFIGURATION : hide token textbox, keep just verify connection button.
+- CONNECTOR : add FEEDBIZ_DOMAIN in config
+- ORDER IMPORT : allow set ForceImport in order xml.
+
+feedbiz2015032601
+- PRODUCTS/OFFERS : add page number, so reader can detect if it lose any page.
+- CONTEXT : update to support string date(not DateTime).
+
+feedbiz2015032301
+- PRODUCTS/OFFERS : need INACTIVE product in feed, so FB can update 0 qty to MP. Otherwise MP qty will never be updated.
+- ORDER IMPORT : finish all VALIDATION before create CART.
+- ORDER IMPORT : delete CART if import process is not complete.
+- ORDER BOX : check MODULE NAME and MP ORDER ID before show the box.
+
+feedbiz2015031801
+- SETTING : add debug mode.
+- SETTING : includes both active and in-active carriers.
+- ORDER IMPORT : check $order->carrier->id_carrier both isset and value.
+- ORDER IMPORT/STOCK MOVEMENT : add log to file.
+
+feedbiz2015031701
+- CONFIGURATION : add allow import for out of stock.
+- ORDER IMPORT : check allow import out of stock.
+
+feedbiz2015031301
+- ORDER IMPORT : add `FeedBizOrders` table.
+- ORDER IMPORT : add Feedbiz box on order admin.
+
+feedbiz2015031101
+- ORDER IMPORT : suport unknown postalcode
+- ORDER IMPORT : add orderID/invoiceID case order already imported.
+- ORDER IMPORT : add debug cart.
+- ORDER IMPORT : cast XML to int/str/float.
+- ORDER IMPORT : product price using total_price_tax_incl instead unit_price_tax_incl.
+- FeedBizPaymentModule : round $unitprice to 2 digits.
+
+feedbiz2015022601
+- ORDER IMPORT : add restock function.
+
+feedbiz2015021901
+- feedbiz.cart.class.php : conflict SetTaxCalculationMethod function name with PS_Cart, so rename to _SetTaxCalculationMethod
+- LOGO : update Feedbiz logo with smaller size img.
+- ORDER IMPORT : if ADDR1 is null use ADDR2 instead.
+- ORDER IMPORT : update FeedBizOrder::updatePaymentMethod to use _DB_PREFIX_ in sql query.
+order import using channel as payment method. So it is not 100% match with system payment code then INVOICE PAYMENT is blank.
+- SHIPPED_ORDER : + checking TRACKING_NUMBER is not blank.
+- ORDER IMPORT : separate bill/shipping name.
+- CONFIGURATION > INFORMATION : add product summary for cross check with Feed.biz.
+- ADD IP : 54.149.193.201
+
+feedbiz2015021801
+- OFFERS: add Lastupdate field.
+
+feedbiz2015021101
+- SETTINGS: add multi lang for feature name.
+
+feedbiz2015020901
+- PRODUCT: export product with single line of tags
+
+feedbiz2015020601
+- PRODUCT: export product tags in 1 level and no tag ID.
+- PRODUCT: allow HTML tag in description and encode the desc with htmlspecialcharactor.
+
+feedbiz2015020501
+- PRODUCT/OFFERS/SETTINGS/... : assign LANG with value from get/context/default
+- PRODUCT : put LANG as a parameter in getCategoryInformations
+- SETTING : add debug mode on settings.
+- SETTING : use array ref to assign ATTRIBUTE ID {$AttributeElement[$AttributeGroup['id_attribute_group']]->setAttribute('ID', $AttributeGroup['id_attribute_group'])} instead {$att_id->setAttribute('ID', $AttributeGroup['id_attribute_group']);}
+
+feedbiz2015020201
+- PRODUCT : add weight to combination if weight + impact is not zero.
+- PRODUCT/OFFERS : validate only EX-MANUFACTURER/EX-SUPPLIER.
+
+feedbiz2015012801
+- PRODUCT/OFFERS : export only active product to be able to skip some troble products.
+
+feedbiz2015012601
+- ORDER IMPORT: add $shipping_address_id to order_details
+
+feedbiz2015012301
+- ORDER IMPORT: REMOVE ALL `REVERSE TAX`. using tax calculation from library.
+
+feedbiz2015012201
+- ORDER IMPORT: reverse Ecotax and ShipingTax as well.
+- ORDER IMPORT: in feedbiz.payment.class.php, fix unassign var $quantityInStock.
+- ORDER IMPORT: change math formalar to find excTax (x/(1+rate) => x - (x*rate)) to make it more accurate.
+- WS: add CURLOPT_SSLVERSION AND show error curl message.
+
+feedbiz2015012101
+- ORDER IMPORT: implement reverse VAT to extract product vat from total.
+
+feedbiz2015012001
+- ORDER IMPORT: auto split customer firstname/lastname.
+- ORDER IMPORT: add shipping cost to total_paid fields.
+- ORDER IMPORT: use product tax from Presta side directly.
+
+feedbiz2015011601
+- ORDER IMPORT: fix Tax issue.
+
+feedbiz2015011501
+- SHIPPED_ORDER: add carrier name in feed output.
+
+feedbiz2015011401
+- SHIPPED_ORDER: add shipping date.
+- ORDER IMPORT: return success if mp_order have been imported.
+- PRODUCT/OFFER: initial current datetime object with String 'Y-m-d H:i:s' to support old PHP version.
+- CONFIGURATION: add ordering by categoryID on category selection panel.
+
+feedbiz2015011301
+- SHIPPED_ORDER: add shipped orders list.
+- VERIFY: add debug mode.
+
+feedbiz2015010901
+- LOGO: update Feedbiz logo.
+
+feedbiz2015010701
+- PRODUCTS & OFFERS: disable validation. Allow upload all products to Feedbiz.
+- PRODUCTS & OFFERS: change UPC length to 12 digits.
+
+feedbiz2015010601
+- CONNECTOR: multiple allowed IP in connector.
+- ORDER IMPORT: force order import to save tax from feedbiz xml.
+- ORDER IMPORT: update updatePaymentMethod function in FeedBizOrder to support different PS version.
+- ORDER IMPORT: add debug mode.
+
+feedbiz2015010501
+- CONNECTOR: Add HTPASSWD authentication in webservice connection.
+- PRODUCTS: Add both Description and ShortDescription in product feed.
+- ORDER IMPORT: Validate empty address from order import data to avoid Fatal Error from address class.
+
+feedbiz2014120801
+- ORDER IMPORT: remove stock movement logic.
+
+feedbiz2014120401
+- STOCK MOVEMENT: add stock movement update function.
+
+feedbiz2014112001
+- ORDER IMPORT: change error message wording.
+
+feedbiz2014111901
+- ORDER IMPORT: use invoice>total_shipping_tax_incl instead excl
+
+feedbiz2014111401
+- ORDER IMPORT : add otp.
+
+feedbiz2014111001
+- ORDER IMPORT: use product's unit_price_tax_incl instead product_price.
+- ORDER IMPORT: display order validation message if import fail.
+- ORDER IMPORT: print all output buffer in xml message.
+
+feedbiz2014093001
+- ORDER IMPORT: add product by id_product/id_attribute instead SKU(sku has no duplicate validation).
+- check expert mode in configuration saving process.
+
+feedbiz2014092401
+- alert message if selected carrier is in-active.
+
+feedbiz2014091901
+- remove username required field validation.
+
+feedbiz2014091901
+- filter and allow export only product with combination lester or equal 100
+
+feedbiz2014091801
+- need loadStockData to load product quantity, unless it shows 0 quantity.
+- always set 0 $id_product_start to find MinProductID in export status.
+
+feedbiz2014091701
+- fix bug Ref validation(move validation inside combination loop).
+- display error in debug mode(php error and message from validation).
+- disable UPC validation for Prestashop 12 digits UPC.
+
+feedbiz2014091501
+- put dev.feed.biz to FEEDBIZ_IP.
+
+feedbiz2014091201
+- support address3 in order import.
+
+feedbiz2014091201
+- Offers print errors message in debug mode
+- Remove SOAP in user/token verification.
+- Display error message in return.
+
+feedbiz2014091101
+- require REFERENCE
+- return InvoiceNumber/OrderNumber from order import.
+- set Carrier in order import process.
+
+feedbiz2014090901
+- add order import feature.
+
+- remove shipping price stuff.
+
+-use PS_COUNTRY_DEFAULT instead PS_LOCALE_COUNTRY in feedbiz.tax.class
+-use cache if _PS_VERSION greater or equal 1.5 in feedbiz.tax.class
+
+-fix missing PRODUCTS condition.
+
+-add feedbiz connector
+-check feedbiz ip
+-update fbtoken
+
+-add current/max/min product ID for progress updating.
+
+-check getAttributeCombinations product feed with method_exists
+-check cache->isStored function on feedbiz.tax.class
+
+-check _PS_VERSION >= 1.5 for TaxCalculator
+
+-fix offers Tax for shipping and remove TAX tag if useTax is unselected.
+
+-fix percent discount in products feed.
+
+-use PS_COUNTRY_DEFAULT instead PS_LOCALE_COUNTRY
+
+-fix wrong XML tag spell
+-change combination logic
+-get shipping price by weight/price
+-remove store address and get shipping tax from store country
+
+-fix offers combination missing SKU/UPC
+-add SKU/UPC in combination
+
+-remove items from offer which is without combination
+-fix replace combination $standardPrice with $strikedPrice
+
+-add js auto select multi selection on manufacturer filter (bug: no select no save)
+-save stock status as blank array if no option is selected.
+
+-change metoken to fbtoken.
+-disable CATEGORY REQUIRED validation on configuration page.
+-add AVAILABILITY and MD5 on PRODUCT IMAGE.
+-add ExportTotal in export status.
+-fix EAN 13 digits and check NULL.
+
+-Fixed Missing EAN in combination
+-Remove discount from price calculation. Just add discount DOM element.
+
+-Remove XML export and involve pages.
+-Use timestamp to considerate export expiration.
+
+-Creditials verify
+-Product Splite and export as XML content
+-Separate SETTING in another XML
+
+-Attribute/Featuer data come from front-end library.
+-Disable EAN validation to force showing all combination(opencart combination does not have EAN).
+-Fix wrong tax for combination product.
+-Fix miss discount in feed file.
+-Fix pricing on product create.
+-Add test page(Download) on admin.
+-Change language to default after load multi-lang option/attribute/...
+-Fix 2 digits.
+
+feedbiz2015080301
+-Fixed address name.
+
+feedbiz-v1.0.02-20150821.zip
+-Fixed lost include file classes/feedbiz.tools.class.php;
+-add Employee ID in order_import.
+-add Feedbiz customer ID in order_import.
+-change from currency default is currency order.

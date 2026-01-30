@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<module>
+    <name>facebookconversiontrackingplus</name>
+    <displayName><![CDATA[Pixel Plus for Facebook: Events + Conversions API + Pixel Catalogue]]></displayName>
+    <version><![CDATA[2.3.3]]></version>
+    <description><![CDATA[Track Facebook events with the Pixel &amp; Conversion API. Measure the ROI of your ads, create catalogues, dynamic ads, tag products on Instagram, create shops on Facebook, microdata... GDPR Ready, iOS 14.5 Ready]]></description>
+    <author><![CDATA[Smart Modules]]></author>
+    <tab><![CDATA[advertising_marketing]]></tab>
+	<confirmUninstall><![CDATA[¿Está seguro de que quiere borrar todos los píxeles de seguimiento?]]></confirmUninstall>
+    <is_configurable>1</is_configurable>
+    <need_instance>0</need_instance>
+	<limited_countries></limited_countries>
+</module>

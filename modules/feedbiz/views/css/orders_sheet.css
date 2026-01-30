@@ -1,0 +1,51 @@
+.feedbiz_label {
+    display: inline-block;
+    width: 120px;
+    text-align: right;
+    font-weight: bold;
+    line-height: 250%;
+}
+
+.feedbiz_text {
+    margin-left: 5px;
+}
+
+#me-action {
+    width: 150px;
+}
+
+#me-valid {
+    position: relative;
+    padding: 8px;
+    border: 1px solid transparent;
+    cursor: pointer;
+}
+
+#me-valid:hover {
+    border: 1px solid blue;
+    background-color: #efefef;
+}
+
+#me-update {
+    position: relative;
+    padding: 8px;
+    border: 1px solid transparent;
+    cursor: pointer;
+}
+
+#me-update:hover {
+    border: 1px solid blue;
+    background-color: #efefef;
+}
+
+#me-update-loader {
+    position: relative;
+    padding: 8px;
+    border: 1px dashed grey;
+}
+
+.feedbiz_red_text {
+    color: red;
+    font-weight: bold;
+}
+

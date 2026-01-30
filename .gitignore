@@ -12,8 +12,8 @@
 !themes/
 !themes/transformer/**
 
-# !modules/
-# !modules/**
+!modules/
+!modules/**
 
 !override/
 !override/**

@@ -1,0 +1,1 @@
+<?phpglobal $_MODULE;$_MODULE = array();$_MODULE['<{ets_oneclicktomigrate}prestashop>ets_oneclicktomigrate_6b4ce0be03e1ef2a1b5c71734d1a674b'] = ' One click to migrate';

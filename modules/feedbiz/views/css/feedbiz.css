@@ -1,0 +1,555 @@
+/**
+ * @author : Feed.biz
+ */
+
+.bootstrap .form-group .control-label.col-lg-3 {
+    padding-top: 0;
+}
+
+#main .nav > li > a:focus {
+    background-color: transparent;
+}
+
+#content input[type=checkbox], #content input[type=radio] {
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+}
+
+#content input[type=checkbox] + span, #content input[type=radio] + span {
+    position: relative;
+    top: -5px;
+}
+
+#button-copy-to-clipboard {
+    margin-top: 5px;
+}
+
+.cleaner {
+    clear: both;
+}
+
+hr {
+    height: 0;
+    border: 1px inset
+}
+
+.hint {
+    display: block;
+}
+
+.master-disabled {
+    color: silver;
+    background-color: #efefef;
+}
+
+.master-enabled {
+    color: black;
+    background-color: white;
+}
+
+.check-loader {
+    position: relative;
+    top: -5px;
+    margin-left: 30px;
+}
+
+.server-response {
+    display: none;
+    min-height: 18px;
+    width: 300px;
+    border: 1px solid grey;
+    background-color: #fffefb;
+    padding-left: 5px;
+    padding-top: 3px;
+}
+
+.input_note {
+    color: grey;
+    font-size: 0.8em
+}
+
+label {
+    padding-right: 5px;
+}
+
+/* PS 1.5 */
+
+#menudiv-categories .table tr td {
+    border-bottom: none;
+}
+
+.feedbiz-details {
+    width: 100%;
+}
+
+.profile-obj-title {
+    position: relative;
+    top: +3px;
+    text-align: right;
+}
+
+.profile-help {
+    font-size: 1em;
+}
+
+.profile-name {
+    color: navy;
+    font-weight: bold;
+}
+
+.profile-add {
+    float: right;
+    position: relative;
+    top: 7px;
+    margin-left: 15px;
+}
+
+.profile-add-img {
+    float: right;
+    margin-right: 10px;
+}
+
+.profile-add-img img {
+    border: 1px solid transparent;
+    padding: 5px;
+    cursor: pointer;
+    margin-right: 30px;
+}
+
+.profile-add-img img:hover {
+    border: 1px solid navy;
+}
+
+.profile-del {
+    position: relative;
+    top: +2px;
+}
+
+.profile-del-img img {
+    margin-left: 15px;
+    border: 1px solid transparent;
+    padding: 5px;
+    cursor: pointer;
+    position: relative;
+    top: +3px;
+}
+
+.profile-del-img img:hover {
+    border: 1px solid navy;
+}
+
+#reset-categories {
+    cursor: pointer;
+}
+
+.model-help {
+    font-size: 1em;
+}
+
+.model-name {
+    color: navy;
+    font-weight: bold;
+}
+
+.model-add {
+    float: right;
+    position: relative;
+    top: 7px;
+    margin-left: 15px;
+}
+
+.model-add-img {
+    float: right;
+    margin-right: 10px;
+}
+
+.model-add-img img {
+    border: 1px solid transparent;
+    padding: 5px;
+    cursor: pointer;
+    margin-right: 30px;
+}
+
+.model-add-img img:hover {
+    border: 1px solid navy;
+}
+
+.model-del {
+    position: relative;
+    top: +2px;
+}
+
+.model-del-img img {
+    margin-left: 15px;
+    border: 1px solid transparent;
+    padding: 5px;
+    cursor: pointer;
+    position: relative;
+    top: +3px;
+}
+
+.model-del-img img:hover {
+    border: 1px solid navy;
+}
+
+.specific-title {
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+.specific-row {
+    font-size: 1.2em;
+}
+
+.adv-ship-add img {
+    border: 1px solid transparent;
+    padding: 1px;
+    cursor: pointer;
+}
+
+.adv-ship-add img:hover {
+    border: 1px solid navy;
+}
+
+.adv-ship-del img {
+    border: 1px solid transparent;
+    padding: 1px;
+    cursor: pointer;
+}
+
+.adv-ship-del img:hover {
+    border: 1px solid yellow;
+}
+
+.mandatory {
+    color: red;
+    font-size: 2em;
+    line-height: 0;
+    position: relative;
+    top: +5px;
+}
+
+#model-import {
+    margin-top: 15px;
+    font-size: 12px;
+}
+
+#model-import p {
+    font-size: 12px;
+    color: red;
+}
+
+#reset-categories {
+    color: red;
+}
+
+.feedbiz-error {
+    min-height: 32px;
+    background: #FFBABA url(../img/icon-cancel.png) no-repeat 6px 6px;
+    border: 1px solid #CC0000;
+    padding: 8px 5px 5px 50px;
+    border-radius: 3px;
+    color: red;
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+.me-info p {
+    font-size: 1.1em;
+}
+
+.me-info-level-error {
+    min-height: 32px;
+    background: #FFBABA url(../img/icon-cancel.png) no-repeat 6px 6px;
+    border: 1px solid #CC0000;
+    padding: 8px 5px 5px 50px;
+    border-radius: 3px;
+}
+
+
+.me-info-level-ok {
+    min-height: 32px;
+    background: #DFF2BF url(../img/icon-valid.png) no-repeat 6px 6px;
+    border: 1px solid #4F8A10;
+    padding: 8px 5px 5px 50px;
+    border-radius: 3px;
+}
+
+.me-info-level-info {
+    min-height: 32px;
+    background: #BDE5F8 url(../img/icon-info.png) no-repeat 6px 6px;
+    border: 1px solid #00529B;
+    padding: 8px 5px 5px 50px;
+    border-radius: 3px;
+}
+
+.me-info-text-error {
+    color: red;
+    font-weight: bold;
+}
+
+.me-info-text-ok {
+    color: #4F8A10;
+}
+
+
+table.feedbiz-variant thead tr {
+    font-weight: bold;
+    text-align: center;
+}
+
+table.feedbiz-variant tbody select {
+    min-width: 150px;
+}
+
+.category-loader {
+    position: relative;
+    top: -4px;
+    left: +15px;
+    display: none;
+}
+
+.required {
+    margin-left: 10px;
+    font-size: 1.4em;
+    color: red;
+    font-family: "Courier New", Courier;
+}
+
+.select-error {
+    background-color: red;
+    color: yellow;
+}
+
+/*
+ * Filters
+ */
+.available-manufacturers {
+    float: left;
+    width: 250px;
+    height: 180px !important;
+    resize: vertical;
+    overflow: auto;
+}
+
+.excluded-manufacturers {
+    float: left;
+    width: 250px;
+    height: 180px !important;
+    resize: vertical;
+    overflow: auto;
+}
+
+.manufacturer-heading {
+    width: 600px;
+}
+
+.manufacturer-heading span {
+    display: inline-block;
+    width: 260px;
+    text-align: center;
+    padding: 10px;
+}
+
+.available-suppliers {
+    float: left;
+    width: 250px;
+    height: 180px !important;
+    resize: vertical;
+    overflow: auto;
+}
+
+.selected-suppliers {
+    float: left;
+    width: 250px;
+    height: 180px !important;
+    resize: vertical;
+    overflow: auto;
+}
+
+.supplier-heading {
+    width: 600px;
+}
+
+.supplier-heading span {
+    display: inline-block;
+    width: 260px;
+    text-align: center;
+    padding: 10px;
+}
+
+.sep {
+    position: relative;
+    float: left;
+    height: 200px;
+    margin: auto 10px auto 10px;
+    top: 60px;
+}
+
+
+.move {
+    cursor: pointer;
+    padding: 5px;
+    border: 1px solid transparent;
+}
+
+.move:hover {
+    padding: 5px;
+    border: 1px solid silver;
+    background-color: gainsboro;
+}
+
+#main .support-informations-loader {
+    display: none;
+    position: relative;
+    top: -2px;
+    margin-left: 10px;
+}
+
+#main #support-informations-content .print_r {
+    padding-left: 50px;
+    color: sienna;
+}
+
+#main #menudiv-informations td {
+    border-left: none;
+    border-right: none;
+}
+
+#support-informations-content pre {
+    display: block;
+    padding: 8px;
+    margin: 0 0 8px;
+    font-size: 11px;
+    font-family: Menlo, Monaco, Consolas, "Courier New", monospace;
+    line-height: 1.42857;
+    word-break: break-all;
+    word-wrap: break-word;
+    color: #333333;
+    background-color: whitesmoke;
+    border: 1px solid #cccccc;
+    border-radius: 3px;
+}
+
+table td.title {
+    font-size:2.6em;
+    color:darkgreen;
+    letter-spacing: 1px;
+    position:relative;
+    top:-5px;
+}
+table td.bullet {
+    font-size:1.5em;
+    position: relative;
+    font-weight: bold;
+    top:+2px;
+    left:+10px;
+    letter-spacing: 1px;
+}
+#button-copy-to-clipboard2:hover {
+    background-color:#00aff0;
+    color:white;
+    font-weight: bold;
+}
+#button-copy-to-clipboard2 {
+    position:relative;
+    background-color:#EEECEC;
+    font-weight: bold;
+    width:220px;
+    height:48px;
+    left:+10px;
+    top:-2px;
+}
+
+#content .keypoints {
+    font-size:1.5em;
+}
+#content .returning-user, .cdiscount-user {
+    font-size:1.5em;
+}
+#content .new-user {
+    font-size:1.5em;
+}
+
+#content .cdiscount-user a.button, #content .returning-user a.button, #content .new-user a.button, #btn_survey_connect, #btn_feedbiz_dashboard {
+    font-size:1.4em;
+    width:450px;
+    text-transform: none;
+}
+
+#content .cdiscount-support p {
+    font-size:1.5em;
+}
+#content .cdiscount-support a {
+    text-decoration: none;
+}
+#content .icon-question-sign {
+    position:relative;
+    padding:2px;
+    margin:2px;
+}
+
+#menudiv-import input {
+    min-width:380px;
+    font-size:1.6em;
+    padding: 6px 8px;
+    height:60px;
+}
+
+.tooltip.fade.right.in{
+    width: 100%;
+}
+#menudiv-account h2
+{
+    color:navy;
+}
+
+#menudiv-account em, #menudiv-cdiscount_flux em, #menudiv-import em, #menudiv-support em
+{
+    font-size: 1.4em;
+    color:darkgreen;
+}
+#survey_marketplaces {
+    height: 200px;
+}
+
+#menudiv-info_account .form-group p{
+    font-size: 1.2em;
+    color:navy;
+}
+
+#menudiv-info_account .fs-options {
+    background-color: white;
+    cursor:pointer;
+}
+#menudiv-info_account .fs-option {
+    height:150%;
+}
+#menudiv-info_account .fs-wrap{
+    width:100%;
+    height:120%;
+    font-size: 1.4em;
+    cursor:pointer;
+
+}
+#menudiv-info_account .fs-dropdown {
+    position: absolute;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    width: 98%;
+    margin-top: 5px;
+}
+
+#menudiv-info_account input, #menudiv-info_account select {
+    margin:10px;
+    padding:10px;
+    height:120%;
+    font-size: 1.4em;
+    padding-right:40px;
+    width:98%
+}
+
+#content .menuTabButton {
+    cursor:pointer;
+}

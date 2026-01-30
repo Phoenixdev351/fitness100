@@ -1,0 +1,22 @@
+
+[{shop_url}] 
+
+Hi {firstname_affiliate} {lastname_affiliate},
+
+Your reward withdraw request has been Paid.
+
+Reward Amount: {reward_amount}
+
+Payment Method: {payment_method}
+
+Payment details: {payment_details}
+
+Paid Date: {paid_date}
+
+You can view your reward statstics from "My Statistics" under "My account" section on our shop.
+
+Invite more friends and get more rewards.  		 
+
+{shop_name} [{shop_url}] powered by
+PrestaShop(tm) [http://www.prestashop.com/] 
+

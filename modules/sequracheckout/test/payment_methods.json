@@ -1,0 +1,81 @@
+{
+    "payment_options":
+    [
+        {
+            "title": "Paga Ahora",
+            "icon": "",
+            "description": "Descripción de Paga Ahora",
+            "methods":
+            [
+                {
+                    "product": "fp1",
+                    "title": "Paga ahora",
+                    "icon": "https://live.sequracdn.com/assets/images/badges/invoicing.svg",
+                    "description": "Paga ahora con tarjeta de crédito o débito",
+                    "cost": 0,
+                    "widget": "",
+                    "info_widget": ""
+                }
+            ]
+        },
+        {
+            "title": "Paga más tarde",
+            "icon": "",
+            "description": "Descripción de Paga más tarde",
+            "methods":
+            [
+                {
+                    "product": "i1",
+                    "title": "Paga después",
+                    "icon": "https://live.sequracdn.com/assets/images/badges/invoicing.svg",
+                    "description": "7 días desde el envío",
+                    "cost": 0,
+                    "widget": "",
+                    "info_widget": "<span class='sequra-educational-popup' data-product='i1'> + info</span>"
+                },
+                {
+                    "product": "pp5",
+                    "campaign": "temporary",
+                    "title": "Paga en diciembre",
+                    "icon": "https://live.sequracdn.com/assets/images/badges/campaign.svg",
+                    "description": "Descripción del método 2 de Paga más tarde",
+                    "cost": {
+                        "value": 2.95,
+                        "string": "2,95€"
+                    },
+                    "widget": "wadus",
+                    "info_widget": "<span class='sequra-educational-popup' data-product='pp5' data-campaign='temporary'> + info</span>"
+                },
+                {
+                    "product": "pp5",
+                    "campaign": "en45dias2018",
+                    "title": "Paga en 45 días",
+                    "icon": "https://live.sequracdn.com/assets/images/badges/campaign.svg",
+                    "description": "Descripción del método 3 de Paga más tarde",
+                    "cost": {
+                        "value": 2.95,
+                        "string": "2,95€"
+                    },
+                    "widget": "wadus",
+                    "info_widget": "<span class='sequra-educational-popup' data-product='pp5' data-campaign='en45dias2018'> + info</span>"
+                }
+            ]
+        },
+        {
+            "title": "Pago fraccionado",
+            "icon": "",
+            "description": "Descripción de Pago fraccionado",
+            "methods":
+            [
+                {
+                    "product": "pp3",
+                    "title": "Paga fraccionado",
+                    "icon": "https://live.sequracdn.com/assets/images/badges/partpayment.svg",
+                    "description": "en 3,6 o 12 meses",
+                    "widget": "wadus",
+                    "info_widget": "<span class='sequra-educational-popup' data-product='pp3'> + info</span>"
+                }
+            ]
+        }
+    ]
+}
